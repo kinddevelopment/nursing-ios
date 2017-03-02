@@ -1,0 +1,12 @@
+engines:
+  tailor:
+    enabled: true
+  fixme:
+    enabled: true
+  spellcheck:
+    enabled: true
+
+ratings:
+  paths:
+  - "**.swift"
+  
