@@ -1,11 +1,6 @@
 engines:
   tailor:
     enabled: true
-    checks:
-      trailing-whitespace:
-        enabled: false
-      terminating-newline:
-        enabled: false
   fixme:
     enabled: true
   spellcheck:

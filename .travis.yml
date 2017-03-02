@@ -2,7 +2,7 @@ language: objective-c
 osx_image: xcode8.2
 
 #install:
-#  - brew update && brew install swiftlint
+#  - brew update && brew install tailor
 
 # Based on .travis.yml from SwiftMoment repo
 env:
@@ -18,7 +18,6 @@ env:
     - DESTINATION="OS=10.2,name=iPhone 7 Plus"     SCHEME="$IOS_FRAMEWORK_SCHEME"     SDK="$IOS_SDK"     RUN_TESTS="NO" POD_LINT="NO"
 script:
   - set -o pipefail
-#  - swiftlint
   - xcodebuild -version
   - xcodebuild -showsdks
 
