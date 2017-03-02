@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CBA0E3E44342EBCFB272E6611FEE4EA /* Pods-Nursing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48EC682CCF5727C80F3E55A1DF097CDF /* Pods-Nursing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1114096ACBE1E4407C8234F07D025391 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2CF86FA822604CFC136B741B2944D254 /* Pods-Nursing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FC1AF515DBBD6F5E338E03AE88665D /* Pods-Nursing-dummy.m */; };
+		75FA29BE12A25C7C3D08077DE344099F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8D49DDF1711B350C2A67217111F2C669 /* Pods-NursingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A1E277AC2F82EF45489A9A341781A5 /* Pods-NursingUITests-dummy.m */; };
+		9048706EEC2FBE02B4FBAA9E3069F656 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A5C33DD343AD5451B6C2F6F1996E5FE3 /* Pods-NursingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41DCD7AE0EBFC4CCF5604FE47A512F03 /* Pods-NursingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB830EB2FDAF25FB437DFF234C48CA1F /* Pods-NursingUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B4C8EC19B95C2EE3726C5FCB6DC0A8 /* Pods-NursingUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD9FE63B82014D717D421CC0ED0E25E2 /* Pods-NursingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BDB6DF9E10552BCB019484E7AFB05B /* Pods-NursingTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11A1E277AC2F82EF45489A9A341781A5 /* Pods-NursingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NursingUITests-dummy.m"; sourceTree = "<group>"; };
+		142E9EC2483D43230390C41FF07F1BCD /* Pods_NursingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NursingUITests.framework; path = "Pods-NursingUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15AF2C234DF30898F9BAB17B0B8A8CC4 /* Pods-NursingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NursingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A866CF637F736FCE0D3607E3F53C709 /* Pods-NursingTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NursingTests-frameworks.sh"; sourceTree = "<group>"; };
+		270EDC3455FD6070E4A187BA011506A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A91610B8B764E5AC117A0078336B2AF /* Pods-NursingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NursingTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B906ECFB9A64F8C921093A0DF8390B9 /* Pods_Nursing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Nursing.framework; path = "Pods-Nursing.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3011352AFC2111CBB8C3A90EFED27981 /* Pods-Nursing-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nursing-resources.sh"; sourceTree = "<group>"; };
+		307225008F7BF3BC78A1DB1B98B3FD01 /* Pods-NursingUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NursingUITests-resources.sh"; sourceTree = "<group>"; };
+		41DCD7AE0EBFC4CCF5604FE47A512F03 /* Pods-NursingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NursingTests-umbrella.h"; sourceTree = "<group>"; };
+		42E88AF12AE012C070A29A545B7F4C91 /* Pods-NursingUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NursingUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		48EC682CCF5727C80F3E55A1DF097CDF /* Pods-Nursing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nursing-umbrella.h"; sourceTree = "<group>"; };
+		4B5C4A125E684234DD0399F83816A482 /* Pods-NursingUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NursingUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5975B90A217EC2614E6D7924DA63B5A4 /* Pods-NursingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NursingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62BDB6DF9E10552BCB019484E7AFB05B /* Pods-NursingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NursingTests-dummy.m"; sourceTree = "<group>"; };
+		62F57E27537535FE129A0D3E3A64017E /* Pods-Nursing-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nursing-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72FC6DD5DA367963015F4AE445BF748F /* Pods-Nursing-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nursing-acknowledgements.plist"; sourceTree = "<group>"; };
+		74B4C8EC19B95C2EE3726C5FCB6DC0A8 /* Pods-NursingUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NursingUITests-umbrella.h"; sourceTree = "<group>"; };
+		7C8455F39D5C6789A61EE20B568601D5 /* Pods-NursingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NursingTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		814D6B3BBEC2FAE7FDA9CF92C190D287 /* Pods-Nursing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nursing.release.xcconfig"; sourceTree = "<group>"; };
+		8156A87AC191692C79F301BE21828006 /* Pods-NursingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NursingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E90946F75EA8BA9BD4664A2319BD582 /* Pods-NursingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NursingUITests.modulemap"; sourceTree = "<group>"; };
+		9054FDB7CC1D105297B536DBDF8ACC82 /* Pods-Nursing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nursing.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D3B6C1276D8D27B952AA92335D06EF /* Pods-Nursing-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nursing-frameworks.sh"; sourceTree = "<group>"; };
+		AD85BBB683C0924FABF8C92607E086AF /* Pods-NursingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NursingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B375DE38C84FDB6452493446E8E0C91B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B696E5BDE8B79083D173C625FB5A5277 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E89214AD15E35889FD74586B46831B /* Pods_NursingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NursingTests.framework; path = "Pods-NursingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0FC1AF515DBBD6F5E338E03AE88665D /* Pods-Nursing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nursing-dummy.m"; sourceTree = "<group>"; };
+		DCD9028B8DB54035BE262432ACE8946B /* Pods-Nursing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Nursing.modulemap"; sourceTree = "<group>"; };
+		F53FF58E4149E7293E11567FF63E0BE8 /* Pods-NursingTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NursingTests-resources.sh"; sourceTree = "<group>"; };
+		F61D444347111566C02373414A88A78A /* Pods-NursingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NursingTests.modulemap"; sourceTree = "<group>"; };
+		F7EB377B78058A671D58BF15BDE66420 /* Pods-NursingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NursingUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40C9B95B064480F486184BB74467F900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1114096ACBE1E4407C8234F07D025391 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCF249ACD74EE373C1D9A14963E40C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FA29BE12A25C7C3D08077DE344099F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F700D10219DC71E51C08ACB860E4B5D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9048706EEC2FBE02B4FBAA9E3069F656 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2136B853D3F7751ABAFC7448D521C7F6 /* Pods-NursingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				270EDC3455FD6070E4A187BA011506A4 /* Info.plist */,
+				8E90946F75EA8BA9BD4664A2319BD582 /* Pods-NursingUITests.modulemap */,
+				5975B90A217EC2614E6D7924DA63B5A4 /* Pods-NursingUITests-acknowledgements.markdown */,
+				42E88AF12AE012C070A29A545B7F4C91 /* Pods-NursingUITests-acknowledgements.plist */,
+				11A1E277AC2F82EF45489A9A341781A5 /* Pods-NursingUITests-dummy.m */,
+				4B5C4A125E684234DD0399F83816A482 /* Pods-NursingUITests-frameworks.sh */,
+				307225008F7BF3BC78A1DB1B98B3FD01 /* Pods-NursingUITests-resources.sh */,
+				74B4C8EC19B95C2EE3726C5FCB6DC0A8 /* Pods-NursingUITests-umbrella.h */,
+				15AF2C234DF30898F9BAB17B0B8A8CC4 /* Pods-NursingUITests.debug.xcconfig */,
+				F7EB377B78058A671D58BF15BDE66420 /* Pods-NursingUITests.release.xcconfig */,
+			);
+			name = "Pods-NursingUITests";
+			path = "Target Support Files/Pods-NursingUITests";
+			sourceTree = "<group>";
+		};
+		5E16BB6FC0BC200695F89C4910CBA71B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B906ECFB9A64F8C921093A0DF8390B9 /* Pods_Nursing.framework */,
+				C3E89214AD15E35889FD74586B46831B /* Pods_NursingTests.framework */,
+				142E9EC2483D43230390C41FF07F1BCD /* Pods_NursingUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5E16BB6FC0BC200695F89C4910CBA71B /* Products */,
+				868D9591ADE6641FC46AC18C37EBAADD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		868D9591ADE6641FC46AC18C37EBAADD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4194CF70FAC363E9D85F7FD8520299D /* Pods-Nursing */,
+				B66AAFC60D0414EFFDBC8CCDDC1FB952 /* Pods-NursingTests */,
+				2136B853D3F7751ABAFC7448D521C7F6 /* Pods-NursingUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B66AAFC60D0414EFFDBC8CCDDC1FB952 /* Pods-NursingTests */ = {
+			isa = PBXGroup;
+			children = (
+				B375DE38C84FDB6452493446E8E0C91B /* Info.plist */,
+				F61D444347111566C02373414A88A78A /* Pods-NursingTests.modulemap */,
+				8156A87AC191692C79F301BE21828006 /* Pods-NursingTests-acknowledgements.markdown */,
+				7C8455F39D5C6789A61EE20B568601D5 /* Pods-NursingTests-acknowledgements.plist */,
+				62BDB6DF9E10552BCB019484E7AFB05B /* Pods-NursingTests-dummy.m */,
+				1A866CF637F736FCE0D3607E3F53C709 /* Pods-NursingTests-frameworks.sh */,
+				F53FF58E4149E7293E11567FF63E0BE8 /* Pods-NursingTests-resources.sh */,
+				41DCD7AE0EBFC4CCF5604FE47A512F03 /* Pods-NursingTests-umbrella.h */,
+				AD85BBB683C0924FABF8C92607E086AF /* Pods-NursingTests.debug.xcconfig */,
+				2A91610B8B764E5AC117A0078336B2AF /* Pods-NursingTests.release.xcconfig */,
+			);
+			name = "Pods-NursingTests";
+			path = "Target Support Files/Pods-NursingTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4194CF70FAC363E9D85F7FD8520299D /* Pods-Nursing */ = {
+			isa = PBXGroup;
+			children = (
+				B696E5BDE8B79083D173C625FB5A5277 /* Info.plist */,
+				DCD9028B8DB54035BE262432ACE8946B /* Pods-Nursing.modulemap */,
+				62F57E27537535FE129A0D3E3A64017E /* Pods-Nursing-acknowledgements.markdown */,
+				72FC6DD5DA367963015F4AE445BF748F /* Pods-Nursing-acknowledgements.plist */,
+				D0FC1AF515DBBD6F5E338E03AE88665D /* Pods-Nursing-dummy.m */,
+				94D3B6C1276D8D27B952AA92335D06EF /* Pods-Nursing-frameworks.sh */,
+				3011352AFC2111CBB8C3A90EFED27981 /* Pods-Nursing-resources.sh */,
+				48EC682CCF5727C80F3E55A1DF097CDF /* Pods-Nursing-umbrella.h */,
+				9054FDB7CC1D105297B536DBDF8ACC82 /* Pods-Nursing.debug.xcconfig */,
+				814D6B3BBEC2FAE7FDA9CF92C190D287 /* Pods-Nursing.release.xcconfig */,
+			);
+			name = "Pods-Nursing";
+			path = "Target Support Files/Pods-Nursing";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4F0DAD80AB05BFFD019055672B937073 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBA0E3E44342EBCFB272E6611FEE4EA /* Pods-Nursing-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA4548723A77D496035290CFA91A1052 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB830EB2FDAF25FB437DFF234C48CA1F /* Pods-NursingUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB999BFFCE633993C5A5EDD42C7B870 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C33DD343AD5451B6C2F6F1996E5FE3 /* Pods-NursingTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25683AE0D23DF758257B049E497CEEB6 /* Pods-NursingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5323E6DFAAAF5F08E32527E30BBD9123 /* Build configuration list for PBXNativeTarget "Pods-NursingUITests" */;
+			buildPhases = (
+				7A8BE21034ED5C66B15D7838E48EAD66 /* Sources */,
+				F700D10219DC71E51C08ACB860E4B5D8 /* Frameworks */,
+				BA4548723A77D496035290CFA91A1052 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NursingUITests";
+			productName = "Pods-NursingUITests";
+			productReference = 142E9EC2483D43230390C41FF07F1BCD /* Pods_NursingUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61D504695E37E0C0719FD7587033B6DF /* Pods-NursingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99046EBBB914A4CCF108250470C68927 /* Build configuration list for PBXNativeTarget "Pods-NursingTests" */;
+			buildPhases = (
+				A583DD281DCA7952FDAD723A519F0EA0 /* Sources */,
+				4CCF249ACD74EE373C1D9A14963E40C4 /* Frameworks */,
+				DBB999BFFCE633993C5A5EDD42C7B870 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-NursingTests";
+			productName = "Pods-NursingTests";
+			productReference = C3E89214AD15E35889FD74586B46831B /* Pods_NursingTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA35D5BE818A26272B7B0E7B5FC36153 /* Pods-Nursing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9367EE2AE802803B78725B213CDB7BA1 /* Build configuration list for PBXNativeTarget "Pods-Nursing" */;
+			buildPhases = (
+				49B9A9331961AE583D769A883BB4AA8A /* Sources */,
+				40C9B95B064480F486184BB74467F900 /* Frameworks */,
+				4F0DAD80AB05BFFD019055672B937073 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Nursing";
+			productName = "Pods-Nursing";
+			productReference = 2B906ECFB9A64F8C921093A0DF8390B9 /* Pods_Nursing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5E16BB6FC0BC200695F89C4910CBA71B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA35D5BE818A26272B7B0E7B5FC36153 /* Pods-Nursing */,
+				61D504695E37E0C0719FD7587033B6DF /* Pods-NursingTests */,
+				25683AE0D23DF758257B049E497CEEB6 /* Pods-NursingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49B9A9331961AE583D769A883BB4AA8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF86FA822604CFC136B741B2944D254 /* Pods-Nursing-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A8BE21034ED5C66B15D7838E48EAD66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D49DDF1711B350C2A67217111F2C669 /* Pods-NursingUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A583DD281DCA7952FDAD723A519F0EA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9FE63B82014D717D421CC0ED0E25E2 /* Pods-NursingTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1BF122C64D85F695A9AE4F065DB58E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A91610B8B764E5AC117A0078336B2AF /* Pods-NursingTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NursingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NursingTests/Pods-NursingTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NursingTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3AC3C7E3C2AA0B73F8AF047E79BA8DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7EB377B78058A671D58BF15BDE66420 /* Pods-NursingUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NursingUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NursingUITests/Pods-NursingUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NursingUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C880A5031EEA6A6B27F3CD0A78B8754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD85BBB683C0924FABF8C92607E086AF /* Pods-NursingTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NursingTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NursingTests/Pods-NursingTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NursingTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3E6CBB626F0480A6E7D2CF0F5ED9EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9054FDB7CC1D105297B536DBDF8ACC82 /* Pods-Nursing.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Nursing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nursing/Pods-Nursing.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Nursing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E952E52BEB94411CBF33E93580E610DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814D6B3BBEC2FAE7FDA9CF92C190D287 /* Pods-Nursing.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Nursing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nursing/Pods-Nursing.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Nursing;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE9367D3E97CE076A0E62FE71E528FB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15AF2C234DF30898F9BAB17B0B8A8CC4 /* Pods-NursingUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NursingUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NursingUITests/Pods-NursingUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NursingUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5323E6DFAAAF5F08E32527E30BBD9123 /* Build configuration list for PBXNativeTarget "Pods-NursingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9367D3E97CE076A0E62FE71E528FB0 /* Debug */,
+				3AC3C7E3C2AA0B73F8AF047E79BA8DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9367EE2AE802803B78725B213CDB7BA1 /* Build configuration list for PBXNativeTarget "Pods-Nursing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E6CBB626F0480A6E7D2CF0F5ED9EBE /* Debug */,
+				E952E52BEB94411CBF33E93580E610DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99046EBBB914A4CCF108250470C68927 /* Build configuration list for PBXNativeTarget "Pods-NursingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C880A5031EEA6A6B27F3CD0A78B8754 /* Debug */,
+				1BF122C64D85F695A9AE4F065DB58E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
