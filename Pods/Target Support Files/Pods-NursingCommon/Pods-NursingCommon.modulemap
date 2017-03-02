@@ -1,0 +1,6 @@
+framework module Pods_NursingCommon {
+  umbrella header "Pods-NursingCommon-umbrella.h"
+
+  export *
+  module * { export * }
+}
