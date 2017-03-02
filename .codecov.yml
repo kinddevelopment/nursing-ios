@@ -1,0 +1,6 @@
+coverage:
+  ignore:
+    - NursingCommonTests/*
+    - NursingTests/*
+    - NursingUITests/*
+    
