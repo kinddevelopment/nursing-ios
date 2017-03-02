@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		139AD0420DC2A74F775C8D54 /* Pods_NursingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB31578AA07E683D73741FB1 /* Pods_NursingUITests.framework */; };
 		284D05821E67E554007DF96D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05811E67E554007DF96D /* AppDelegate.swift */; };
 		284D05841E67E554007DF96D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05831E67E554007DF96D /* FirstViewController.swift */; };
 		284D05861E67E554007DF96D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05851E67E554007DF96D /* SecondViewController.swift */; };
@@ -21,8 +20,11 @@
 		285B291B1E67E78E00FD9087 /* NursingCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 285B290B1E67E78E00FD9087 /* NursingCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		285B291E1E67E78E00FD9087 /* NursingCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285B29091E67E78E00FD9087 /* NursingCommon.framework */; };
 		285B291F1E67E78E00FD9087 /* NursingCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 285B29091E67E78E00FD9087 /* NursingCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3091CB33F2E7E6D88F943FE2 /* Pods_NursingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E287DC44917E27ACE2F0014 /* Pods_NursingTests.framework */; };
-		5436E34A677647209A6502EB /* Pods_Nursing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4A94C7DE1C7BA1DFB30C7D /* Pods_Nursing.framework */; };
+		4E7F7B43FFDBC5CAA111B5CA /* Pods_NursingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD1E5725463F828B9355913 /* Pods_NursingTests.framework */; };
+		5AC8506C2D2590F047EA2958 /* Pods_NursingCommonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A906E6F1C4515F2DFB20783A /* Pods_NursingCommonTests.framework */; };
+		617FD80157B3628D305ED4CE /* Pods_NursingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E662FB51F5860B1F53642A /* Pods_NursingUITests.framework */; };
+		7BDE4F57F4C9981B59045D76 /* Pods_NursingCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F604BD730D0305E7F1DBC1B3 /* Pods_NursingCommon.framework */; };
+		B42E26C26BF771213E9DAE1C /* Pods_Nursing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972DB5AEECFD57F2BBAF2785 /* Pods_Nursing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +80,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0D5C0AE14B5F4F971CCF2FC5 /* Pods-NursingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NursingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NursingUITests/Pods-NursingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0182F2B4507DD5EEB50E2376 /* Pods-NursingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NursingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NursingTests/Pods-NursingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		035C41270E3D387251629120 /* Pods-NursingCommonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NursingCommonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NursingCommonTests/Pods-NursingCommonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		179704984B3883EFE7F1D195 /* Pods-NursingCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NursingCommon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NursingCommon/Pods-NursingCommon.debug.xcconfig"; sourceTree = "<group>"; };
 		284D057E1E67E554007DF96D /* Nursing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nursing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		284D05811E67E554007DF96D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		284D05831E67E554007DF96D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -99,14 +103,18 @@
 		285B29111E67E78E00FD9087 /* NursingCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NursingCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		285B29181E67E78E00FD9087 /* NursingCommonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursingCommonTests.swift; sourceTree = "<group>"; };
 		285B291A1E67E78E00FD9087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C176AC856627D7E422C7990 /* Pods-NursingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NursingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NursingTests/Pods-NursingTests.release.xcconfig"; sourceTree = "<group>"; };
-		3E287DC44917E27ACE2F0014 /* Pods_NursingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NursingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54EE6DCBDB7D6B61ABDF4A88 /* Pods-NursingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NursingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NursingTests/Pods-NursingTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6B4A94C7DE1C7BA1DFB30C7D /* Pods_Nursing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nursing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83D8D5F45982DC1B6FCBA845 /* Pods-Nursing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nursing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nursing/Pods-Nursing.debug.xcconfig"; sourceTree = "<group>"; };
-		985C4224AD9C0BD1E38F7A4F /* Pods-Nursing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nursing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nursing/Pods-Nursing.release.xcconfig"; sourceTree = "<group>"; };
-		AB31578AA07E683D73741FB1 /* Pods_NursingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NursingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5FD7EC35E8225CEAD5EF07F /* Pods-NursingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NursingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NursingUITests/Pods-NursingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71D3D141B0BD08969CE29144 /* Pods-NursingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NursingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NursingUITests/Pods-NursingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73D129C8E295A1849C85DBD2 /* Pods-Nursing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nursing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nursing/Pods-Nursing.debug.xcconfig"; sourceTree = "<group>"; };
+		9409B613330087AA68CF9A4A /* Pods-NursingCommonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NursingCommonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NursingCommonTests/Pods-NursingCommonTests.release.xcconfig"; sourceTree = "<group>"; };
+		972DB5AEECFD57F2BBAF2785 /* Pods_Nursing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nursing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A906E6F1C4515F2DFB20783A /* Pods_NursingCommonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NursingCommonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD1E5725463F828B9355913 /* Pods_NursingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NursingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DF136EB668D9AE02019B82 /* Pods-NursingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NursingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NursingUITests/Pods-NursingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC8A0E999D989AECAE8F4F9A /* Pods-Nursing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nursing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nursing/Pods-Nursing.release.xcconfig"; sourceTree = "<group>"; };
+		D3E662FB51F5860B1F53642A /* Pods_NursingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NursingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50403CA732ACB51415424E5 /* Pods-NursingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NursingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NursingTests/Pods-NursingTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1BE1FAA45A7E1866EEC5D4D /* Pods-NursingCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NursingCommon.release.xcconfig"; path = "Pods/Target Support Files/Pods-NursingCommon/Pods-NursingCommon.release.xcconfig"; sourceTree = "<group>"; };
+		F604BD730D0305E7F1DBC1B3 /* Pods_NursingCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NursingCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				285B291E1E67E78E00FD9087 /* NursingCommon.framework in Frameworks */,
-				5436E34A677647209A6502EB /* Pods_Nursing.framework in Frameworks */,
+				B42E26C26BF771213E9DAE1C /* Pods_Nursing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3091CB33F2E7E6D88F943FE2 /* Pods_NursingTests.framework in Frameworks */,
+				4E7F7B43FFDBC5CAA111B5CA /* Pods_NursingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				139AD0420DC2A74F775C8D54 /* Pods_NursingUITests.framework in Frameworks */,
+				617FD80157B3628D305ED4CE /* Pods_NursingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BDE4F57F4C9981B59045D76 /* Pods_NursingCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,22 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				285B29121E67E78E00FD9087 /* NursingCommon.framework in Frameworks */,
+				5AC8506C2D2590F047EA2958 /* Pods_NursingCommonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EC897075AFE24CB33A05F7C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6B4A94C7DE1C7BA1DFB30C7D /* Pods_Nursing.framework */,
-				3E287DC44917E27ACE2F0014 /* Pods_NursingTests.framework */,
-				AB31578AA07E683D73741FB1 /* Pods_NursingUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		284D05751E67E554007DF96D = {
 			isa = PBXGroup;
 			children = (
@@ -172,8 +172,8 @@
 				285B290A1E67E78E00FD9087 /* NursingCommon */,
 				285B29171E67E78E00FD9087 /* NursingCommonTests */,
 				284D057F1E67E554007DF96D /* Products */,
-				68982F2A473B556B691FF571 /* Pods */,
-				0EC897075AFE24CB33A05F7C /* Frameworks */,
+				76E61D40FD5F61761113204E /* Pods */,
+				960D1B6704F9129133003A7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -239,17 +239,33 @@
 			path = NursingCommonTests;
 			sourceTree = "<group>";
 		};
-		68982F2A473B556B691FF571 /* Pods */ = {
+		76E61D40FD5F61761113204E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				83D8D5F45982DC1B6FCBA845 /* Pods-Nursing.debug.xcconfig */,
-				985C4224AD9C0BD1E38F7A4F /* Pods-Nursing.release.xcconfig */,
-				54EE6DCBDB7D6B61ABDF4A88 /* Pods-NursingTests.debug.xcconfig */,
-				2C176AC856627D7E422C7990 /* Pods-NursingTests.release.xcconfig */,
-				0D5C0AE14B5F4F971CCF2FC5 /* Pods-NursingUITests.debug.xcconfig */,
-				C5FD7EC35E8225CEAD5EF07F /* Pods-NursingUITests.release.xcconfig */,
+				73D129C8E295A1849C85DBD2 /* Pods-Nursing.debug.xcconfig */,
+				CC8A0E999D989AECAE8F4F9A /* Pods-Nursing.release.xcconfig */,
+				179704984B3883EFE7F1D195 /* Pods-NursingCommon.debug.xcconfig */,
+				E1BE1FAA45A7E1866EEC5D4D /* Pods-NursingCommon.release.xcconfig */,
+				035C41270E3D387251629120 /* Pods-NursingCommonTests.debug.xcconfig */,
+				9409B613330087AA68CF9A4A /* Pods-NursingCommonTests.release.xcconfig */,
+				0182F2B4507DD5EEB50E2376 /* Pods-NursingTests.debug.xcconfig */,
+				D50403CA732ACB51415424E5 /* Pods-NursingTests.release.xcconfig */,
+				71D3D141B0BD08969CE29144 /* Pods-NursingUITests.debug.xcconfig */,
+				C0DF136EB668D9AE02019B82 /* Pods-NursingUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		960D1B6704F9129133003A7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				972DB5AEECFD57F2BBAF2785 /* Pods_Nursing.framework */,
+				F604BD730D0305E7F1DBC1B3 /* Pods_NursingCommon.framework */,
+				A906E6F1C4515F2DFB20783A /* Pods_NursingCommonTests.framework */,
+				BAD1E5725463F828B9355913 /* Pods_NursingTests.framework */,
+				D3E662FB51F5860B1F53642A /* Pods_NursingUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,13 +286,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 284D05A81E67E554007DF96D /* Build configuration list for PBXNativeTarget "Nursing" */;
 			buildPhases = (
-				64CC9D5A41A7CB1C763A8513 /* [CP] Check Pods Manifest.lock */,
+				4794DD1A1463B862EA18C263 /* [CP] Check Pods Manifest.lock */,
 				284D057A1E67E554007DF96D /* Sources */,
 				284D057B1E67E554007DF96D /* Frameworks */,
 				284D057C1E67E554007DF96D /* Resources */,
-				9B732D4F33F196999EFEF4B3 /* [CP] Embed Pods Frameworks */,
-				3D9CA3FE9A57FD22B64F6F3F /* [CP] Copy Pods Resources */,
 				285B29251E67E78E00FD9087 /* Embed Frameworks */,
+				83F4A3E15168D23A762C4013 /* [CP] Embed Pods Frameworks */,
+				D295BE63591DDCB2B66524CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -292,12 +308,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 284D05AB1E67E554007DF96D /* Build configuration list for PBXNativeTarget "NursingTests" */;
 			buildPhases = (
-				34BDBDCCD3246912A946F6C8 /* [CP] Check Pods Manifest.lock */,
+				32048838EC4E1A9C06BD01BB /* [CP] Check Pods Manifest.lock */,
 				284D05901E67E554007DF96D /* Sources */,
 				284D05911E67E554007DF96D /* Frameworks */,
 				284D05921E67E554007DF96D /* Resources */,
-				E431688ABF8FCF028179E49F /* [CP] Embed Pods Frameworks */,
-				D775134ED0069035DC841A5B /* [CP] Copy Pods Resources */,
+				08DAF788D570B16396A41F2E /* [CP] Embed Pods Frameworks */,
+				4B8E89A0727BBEEDAE96CF37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -313,12 +329,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 284D05AE1E67E554007DF96D /* Build configuration list for PBXNativeTarget "NursingUITests" */;
 			buildPhases = (
-				172BF42EAD3BEE3BE3A67748 /* [CP] Check Pods Manifest.lock */,
+				0B501F19B1D11DE7FF1E9DFD /* [CP] Check Pods Manifest.lock */,
 				284D059B1E67E554007DF96D /* Sources */,
 				284D059C1E67E554007DF96D /* Frameworks */,
 				284D059D1E67E554007DF96D /* Resources */,
-				47943E2C0815D03D463E256A /* [CP] Embed Pods Frameworks */,
-				F81B493882B78DE52A2A4D6E /* [CP] Copy Pods Resources */,
+				89EC9C162BA4CE8EB0961F4C /* [CP] Embed Pods Frameworks */,
+				605287255AEC9D8E89FB80E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -334,10 +350,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 285B29241E67E78E00FD9087 /* Build configuration list for PBXNativeTarget "NursingCommon" */;
 			buildPhases = (
+				3D2AC16A108CF0AEE7962AF5 /* [CP] Check Pods Manifest.lock */,
 				285B29041E67E78E00FD9087 /* Sources */,
 				285B29051E67E78E00FD9087 /* Frameworks */,
 				285B29061E67E78E00FD9087 /* Headers */,
 				285B29071E67E78E00FD9087 /* Resources */,
+				EDCB75254B520F611BC986AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -352,9 +370,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 285B29261E67E78E00FD9087 /* Build configuration list for PBXNativeTarget "NursingCommonTests" */;
 			buildPhases = (
+				AC9B13708712DED7AD8D00CC /* [CP] Check Pods Manifest.lock */,
 				285B290D1E67E78E00FD9087 /* Sources */,
 				285B290E1E67E78E00FD9087 /* Frameworks */,
 				285B290F1E67E78E00FD9087 /* Resources */,
+				725E15450591B3FFA49758C2 /* [CP] Embed Pods Frameworks */,
+				B6214FAE5038F173C78476D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -472,112 +493,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		172BF42EAD3BEE3BE3A67748 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		34BDBDCCD3246912A946F6C8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		3D9CA3FE9A57FD22B64F6F3F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nursing/Pods-Nursing-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		47943E2C0815D03D463E256A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NursingUITests/Pods-NursingUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		64CC9D5A41A7CB1C763A8513 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9B732D4F33F196999EFEF4B3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nursing/Pods-Nursing-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D775134ED0069035DC841A5B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NursingTests/Pods-NursingTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E431688ABF8FCF028179E49F /* [CP] Embed Pods Frameworks */ = {
+		08DAF788D570B16396A41F2E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -592,7 +508,82 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NursingTests/Pods-NursingTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F81B493882B78DE52A2A4D6E /* [CP] Copy Pods Resources */ = {
+		0B501F19B1D11DE7FF1E9DFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32048838EC4E1A9C06BD01BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D2AC16A108CF0AEE7962AF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4794DD1A1463B862EA18C263 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B8E89A0727BBEEDAE96CF37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NursingTests/Pods-NursingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		605287255AEC9D8E89FB80E2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -605,6 +596,111 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NursingUITests/Pods-NursingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		725E15450591B3FFA49758C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NursingCommonTests/Pods-NursingCommonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83F4A3E15168D23A762C4013 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nursing/Pods-Nursing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89EC9C162BA4CE8EB0961F4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NursingUITests/Pods-NursingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC9B13708712DED7AD8D00CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6214FAE5038F173C78476D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NursingCommonTests/Pods-NursingCommonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D295BE63591DDCB2B66524CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nursing/Pods-Nursing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDCB75254B520F611BC986AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NursingCommon/Pods-NursingCommon-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -796,7 +892,7 @@
 		};
 		284D05A91E67E554007DF96D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83D8D5F45982DC1B6FCBA845 /* Pods-Nursing.debug.xcconfig */;
+			baseConfigurationReference = 73D129C8E295A1849C85DBD2 /* Pods-Nursing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U3RT588H7Y;
@@ -810,7 +906,7 @@
 		};
 		284D05AA1E67E554007DF96D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 985C4224AD9C0BD1E38F7A4F /* Pods-Nursing.release.xcconfig */;
+			baseConfigurationReference = CC8A0E999D989AECAE8F4F9A /* Pods-Nursing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U3RT588H7Y;
@@ -824,7 +920,7 @@
 		};
 		284D05AC1E67E554007DF96D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54EE6DCBDB7D6B61ABDF4A88 /* Pods-NursingTests.debug.xcconfig */;
+			baseConfigurationReference = 0182F2B4507DD5EEB50E2376 /* Pods-NursingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -840,7 +936,7 @@
 		};
 		284D05AD1E67E554007DF96D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C176AC856627D7E422C7990 /* Pods-NursingTests.release.xcconfig */;
+			baseConfigurationReference = D50403CA732ACB51415424E5 /* Pods-NursingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -856,7 +952,7 @@
 		};
 		284D05AF1E67E554007DF96D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D5C0AE14B5F4F971CCF2FC5 /* Pods-NursingUITests.debug.xcconfig */;
+			baseConfigurationReference = 71D3D141B0BD08969CE29144 /* Pods-NursingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = U3RT588H7Y;
@@ -871,7 +967,7 @@
 		};
 		284D05B01E67E554007DF96D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5FD7EC35E8225CEAD5EF07F /* Pods-NursingUITests.release.xcconfig */;
+			baseConfigurationReference = C0DF136EB668D9AE02019B82 /* Pods-NursingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = U3RT588H7Y;
@@ -886,6 +982,7 @@
 		};
 		285B29201E67E78E00FD9087 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179704984B3883EFE7F1D195 /* Pods-NursingCommon.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -911,6 +1008,7 @@
 		};
 		285B29211E67E78E00FD9087 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BE1FAA45A7E1866EEC5D4D /* Pods-NursingCommon.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -935,6 +1033,7 @@
 		};
 		285B29221E67E78E00FD9087 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035C41270E3D387251629120 /* Pods-NursingCommonTests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = U3RT588H7Y;
 				INFOPLIST_FILE = NursingCommonTests/Info.plist;
@@ -949,6 +1048,7 @@
 		};
 		285B29231E67E78E00FD9087 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9409B613330087AA68CF9A4A /* Pods-NursingCommonTests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = U3RT588H7Y;
 				INFOPLIST_FILE = NursingCommonTests/Info.plist;
