@@ -1,6 +1,11 @@
 engines:
   tailor:
     enabled: true
+    checks:
+      trailing_whitespace:
+        enabled: false
+      terminating-newline:
+        enabled: false
   fixme:
     enabled: true
   spellcheck:
@@ -9,4 +14,3 @@ engines:
 ratings:
   paths:
   - "**.swift"
-  

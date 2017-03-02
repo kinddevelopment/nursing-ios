@@ -1,8 +1,8 @@
 language: objective-c
 osx_image: xcode8
 
-install:
-  - brew update && brew install swiftlint
+#install:
+#  - brew update && brew install swiftlint
 
 # Based on .travis.yml from SwiftMoment repo
 env:
@@ -20,7 +20,7 @@ env:
 
 script:
   - set -o pipefail
-  - swiftlint
+#  - swiftlint
   - xcodebuild -version
   - xcodebuild -showsdks
 
