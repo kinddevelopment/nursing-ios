@@ -1,7 +1,10 @@
 language: objective-c
 osx_image: xcode8.2
+install:
+  - brew update && brew install swiftlint
 script:
+  - swiftlint
   - xcodebuild -version
-  - xcodebuild -scheme Nursing -workspace Nursing.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6S,OS=10.1' build test
+  - xcodebuild -scheme Nursing -workspace Nursing.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.1' build test
 after_success:
   - bash <(curl -s https://codecov.io/bash)
