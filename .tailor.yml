@@ -1,5 +1,4 @@
 except:
     - trailing-whitespace
 exclude:
-    - '**Tests.swift'   # Ignore Swift files that end in "Tests"
-    - Pods       # Ignore Swift files under "Source/Pods/"
+    - Pods       # Ignore Swift files under "Pods/"
