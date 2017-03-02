@@ -2,7 +2,7 @@ engines:
   tailor:
     enabled: true
     checks:
-      trailing_whitespace:
+      trailing-whitespace:
         enabled: false
       terminating-newline:
         enabled: false
