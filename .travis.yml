@@ -35,3 +35,7 @@ script:
   - if [ $POD_LINT == "YES" ]; then
       pod lib lint;
     fi
+
+after_success:
+  # Send coverage data
+  - bash <(curl -s https://codecov.io/bash) 
