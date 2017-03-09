@@ -7,55 +7,126 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		073BC6EBDDE944F8FB5A72F3A6C4D6F4 /* Pods-NursingCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5350A5A8C886A2D988826F00071310 /* Pods-NursingCommon-dummy.m */; };
-		0867D5831C3D413FDD781A922C4012B3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0CB53D1FEEF50F34941085574E1BAC /* Extensions.swift */; };
-		12FC7EF5DDBFCF7F42845C019046F180 /* SwiftMoment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B24B7F25B96645207991A3C60AE080 /* SwiftMoment-dummy.m */; };
-		226A6F20223A7E85A66CB69159F27238 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		2609E1F420461AAB0E6EA66AD6D2A957 /* SwiftMoment.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BABCC09A59B8F1B00A3C732BF27AFC8 /* SwiftMoment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F1DE930AF3FE4AF0A802E949DC0D94B /* Pods-NursingCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAAFD777764D068DD050320181DF823D /* Pods-NursingCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		624F52DD277A9DC3BFF18EFE164CA220 /* Pods-Nursing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDE71BAA910A11DF0DECA215B12C26F /* Pods-Nursing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75FA29BE12A25C7C3D08077DE344099F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		7C198AAF7FCD7A8CAC213F8AFB90774B /* Pods-Nursing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F02C3432826250E19CD94FA5216176F2 /* Pods-Nursing-dummy.m */; };
-		7C8C743249419366ED8947E2E6845EF6 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C970A80969E00274481CFD48E2DC55 /* Duration.swift */; };
-		7D7BBB9F95B25782EA506A9073BDC229 /* MomentFromNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2FA04E0E6A231BC826DC0968BD9F54 /* MomentFromNow.swift */; };
-		7DC555C7C9EE6D19C9E425C9248D24B2 /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A89E4FAF39D74D787CA031B8B597F7A /* Moment.swift */; };
-		8131B978B2635844278D2A2AEA8582E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		83922E48FC8FDB85A8F16F7F6B2030C7 /* MomentFromNow.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D91D8B6E7BBB21E0C53EE5DD1B48AC59 /* MomentFromNow.bundle */; };
+		017DE8AF468988F804F269309AE5038B /* Pods-NursingCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAAFD777764D068DD050320181DF823D /* Pods-NursingCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1013945CD59C970A2DAAB4AF2CFACD7F /* MomentFromNow.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C1EB116EEB4807152951D216F843346B /* MomentFromNow.bundle */; };
+		237951D67CE83DC77DF9816B09F2BF56 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2319995B19A094E4EBA561B4E08A9CB /* Duration.swift */; };
+		2A0929F9282034152603CDBCA4D8B869 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE51BC6693959009AFA0DD40C1D5EF0E /* Foundation.framework */; };
+		3E8873B3ED29EB941D7962E955332A87 /* EVReflectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D378534F99CB51B6FABA3F708193F3B /* EVReflectable.swift */; };
+		4298CDF8C088773F1576C83403B30247 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A680FD249D7AA8CFA12F3B3FD2E4494A /* CloudKit.framework */; };
+		45CECC5F6F26256AC1F2FB7A8731C5AA /* EVCloudKitEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = A249EE1A272B8323B7350A4FA5167E5B /* EVCloudKitEnums.swift */; };
+		490996894CF696C87BFD27127D58018A /* EVObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF802607CE319050FEFC62A8119D4B7 /* EVObject.swift */; };
+		4F2E290E0A42EB1035E466DCDB104F0F /* EVArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7D2995DFDB5A5F9A517C7D5821ED2A /* EVArrayExtension.swift */; };
+		501BEFB39576C2B88B0BBC2CA666A2FB /* EVCloudKitDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9ABD355E51167143AA25FE70D4D09C /* EVCloudKitDao.swift */; };
+		570E7D087B5325D921103D5221752DBC /* EVSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C545223499A4A800F697DB683AD031 /* EVSort.swift */; };
+		5E99D3173669D2B0F87E67FD9D604968 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE51BC6693959009AFA0DD40C1D5EF0E /* Foundation.framework */; };
+		65F2C68C61B2B2082B11C68F8112FFCC /* Pods-NursingCommonTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FD6E6FB0A64F8D0CD4761E00110237 /* Pods-NursingCommonTests-dummy.m */; };
+		75FA29BE12A25C7C3D08077DE344099F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE51BC6693959009AFA0DD40C1D5EF0E /* Foundation.framework */; };
+		7B07B98E8ADA513AD963B6927C487B3A /* CKRecord+EVReflectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060B938B2B7FBFD010A81177DE4AD5C3 /* CKRecord+EVReflectable.swift */; };
+		8053CD703D594D09DF4E4FE8C7741964 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE51BC6693959009AFA0DD40C1D5EF0E /* Foundation.framework */; };
+		80E65ABD5D7EAFD7732B799974A7C24F /* LazyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8238EA7668523F8B44E762F4B462D848 /* LazyBox.swift */; };
+		8B42EAE26A0BA6358A7A2DE5D9E4B1E7 /* SwiftMoment.h in Headers */ = {isa = PBXBuildFile; fileRef = 4632074273AB1F518D6F8B13072F25F7 /* SwiftMoment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D49DDF1711B350C2A67217111F2C669 /* Pods-NursingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA522CC8FD1A8FFE682DF5214AD5544 /* Pods-NursingUITests-dummy.m */; };
-		9048706EEC2FBE02B4FBAA9E3069F656 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		96F1CF42D149859E413E516B2E89028D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		99235F94226F39771276C948921D231D /* Pods-NursingCommonTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F59E3EC3784AAEFD0E802B02AF7BBA0 /* Pods-NursingCommonTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9048706EEC2FBE02B4FBAA9E3069F656 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE51BC6693959009AFA0DD40C1D5EF0E /* Foundation.framework */; };
+		912F08C5511EC4FA2DF4B705611AE872 /* CKDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B59BCE8DD42932A27E30C39D3BD6C5 /* CKDataObject.swift */; };
+		9A114EAF797637E16F6520BAB1E6F9E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE51BC6693959009AFA0DD40C1D5EF0E /* Foundation.framework */; };
+		9AC4510379B952F83C6FEE8EF06FC689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE51BC6693959009AFA0DD40C1D5EF0E /* Foundation.framework */; };
+		9B7E8AAE8E09DF7B579604B87C9375DB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9267E5119FEF5241D352117ED634B5A /* Extensions.swift */; };
+		9F650C01DD559A89E787D836DB2052F3 /* EVDictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30103E70A4020C72B92E02CA0A22750A /* EVDictionaryExtension.swift */; };
+		A3385783CD29F8A3E2267608B5E3D510 /* Pods-Nursing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDE71BAA910A11DF0DECA215B12C26F /* Pods-Nursing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A448FA90F8C524E40CE09C152C583505 /* EVReflection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EFE65F5EE1B48CA5776EB134B229D3 /* EVReflection.framework */; };
 		A5C33DD343AD5451B6C2F6F1996E5FE3 /* Pods-NursingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E725D9FE6837F23C3571A5964B23C81 /* Pods-NursingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF88BAD028CC3E76A410030F35D35D2E /* SwiftMoment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E74C6B9E04BE9701A96DA3A1636FB1D /* SwiftMoment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7D313043A31527EC958764BF76B30F7 /* TimeUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2D541FEDC1F17F848FAD78E9B25E27 /* TimeUnit.swift */; };
-		BC3FF7E0016FBA85041CE5D24966F955 /* Pods-NursingCommonTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FD6E6FB0A64F8D0CD4761E00110237 /* Pods-NursingCommonTests-dummy.m */; };
-		CB72C4FAAF73217131DFE3C051F106D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AB5C54DA464C06D4EFE43BB0B27C5D55 /* EVCloudData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FB8E68501D624AEC1610584564D1DF /* EVCloudData.swift */; };
+		AD1232D7FABAA816510CC9D0C75F21DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE51BC6693959009AFA0DD40C1D5EF0E /* Foundation.framework */; };
+		AED32AEC7CBD597797DDA8C2A8F92963 /* Pods-NursingCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5350A5A8C886A2D988826F00071310 /* Pods-NursingCommon-dummy.m */; };
+		B76F25EEE90370ECD11B3F2094D543AB /* EVReflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD01E1E99782DD555E50804423F34E6 /* EVReflection.swift */; };
+		BB5A2A790A534E41404187C59FC409F5 /* SwiftMoment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0598E9EC95161F7E3DD2740A1026169 /* SwiftMoment-dummy.m */; };
+		C4AF73C3D9BED70C798893F8E37E66C4 /* MomentFromNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E542BFA0449CDEA1E13F0FC15E83AB /* MomentFromNow.swift */; };
+		CB18796E9D9DF4DC5B11BBACEEE0FCDE /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A680FD249D7AA8CFA12F3B3FD2E4494A /* CloudKit.framework */; };
 		CB830EB2FDAF25FB437DFF234C48CA1F /* Pods-NursingUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 038766D0DAED0AD3E580324AF741EEE0 /* Pods-NursingUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBB5977B22B1B1C5C6AB02845B658E63 /* EVCloudKitDao-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3380F7744AC4E0819C5A16CB187FA7FE /* EVCloudKitDao-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD9FE63B82014D717D421CC0ED0E25E2 /* Pods-NursingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 778849818D638011A0914805A2516256 /* Pods-NursingTests-dummy.m */; };
-		F2F3AB93E618C58208D8468D240E0300 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B553FC5004F869605B332BAA4B408 /* Operators.swift */; };
-		FF747900C49ABD69209839B8C2C1E78A /* LazyBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8818D2B40A76462131EE595202FBA238 /* LazyBox.swift */; };
+		D414D19187CC52E2305FF0B34450A02D /* Pods-NursingCommonTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F59E3EC3784AAEFD0E802B02AF7BBA0 /* Pods-NursingCommonTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D90FDD2DA222DA38160619AA66FD343A /* EVWorkaroundHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99F7089981B5658F47BDB462CE31E81 /* EVWorkaroundHelpers.swift */; };
+		DBE2D1FA493F6EDBE90201B1261058A1 /* EVReflection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F671D4043E84F5636BE80051AE41B7D3 /* EVReflection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCA63D70E259F4EE4A34981DE35C7D5A /* SwiftMoment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9BC587B9CB315BF18391ECCDDEFAC1 /* SwiftMoment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E174E8C28D487C2C5DDB4B905B905D5E /* Pods-Nursing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F02C3432826250E19CD94FA5216176F2 /* Pods-Nursing-dummy.m */; };
+		E5191E6DA7F52A7EE764C6B338570C58 /* EVglobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5905EBFD21606E1736E30A032B2DA0B /* EVglobal.swift */; };
+		E63011EBB3453E81B339D854BB692167 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7152BC73357AA9B40080C789C005D6D /* Operators.swift */; };
+		EA7232A1DB0E1D34471BB9176CA2F25A /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9216A8BB2996308F770DB8CE99EDDF7F /* Moment.swift */; };
+		F63B100EE1CF912B0290602CD8EDCAA1 /* EVCloudKitDao-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB70EAB149819A5628FD28F5EB015FB9 /* EVCloudKitDao-dummy.m */; };
+		FE8A4A8E30491373BE36D1931C93DD23 /* TimeUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72DAAEBFB299A1ACB410BA3FCF153D1 /* TimeUnit.swift */; };
+		FED685BC70EA610611B5A00EAF93134E /* EVReflection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32462A8FFD9B140EBFE3140F1196DE89 /* EVReflection-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4D6B8EC8A6760D5C8B0012DEF2B0773A /* PBXContainerItemProxy */ = {
+		08B9369ED1555E47D17BBDD32DB36F7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 479ED61A188336B30C418ECA756D2C3D;
+			remoteGlobalIDString = E1B4CF9A6BD86077FA6F573162D0A891;
+			remoteInfo = EVReflection;
+		};
+		34321B3FB1CE4B3C3DA7A683BA52D32A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1B4CF9A6BD86077FA6F573162D0A891;
+			remoteInfo = EVReflection;
+		};
+		380074062EDFC91A35DA9C7A40407AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25847319F734AFFA05C75AF8F7ED7AE4;
 			remoteInfo = SwiftMoment;
 		};
-		94F0EBEE0635D4D36B738930AD18B3A9 /* PBXContainerItemProxy */ = {
+		4800B1EB7ECC5AE8E2E96D5D70212408 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 479ED61A188336B30C418ECA756D2C3D;
+			remoteGlobalIDString = 7D8656B17A81DC70121DE7184FBC4351;
+			remoteInfo = EVCloudKitDao;
+		};
+		6B8BCC55C9B515216B9C899FDD67F80A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D8656B17A81DC70121DE7184FBC4351;
+			remoteInfo = EVCloudKitDao;
+		};
+		6D348305236F896722C6905CCDD28895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1B4CF9A6BD86077FA6F573162D0A891;
+			remoteInfo = EVReflection;
+		};
+		8C4AD0E062EFB11E07C23E4EF35E8C75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25847319F734AFFA05C75AF8F7ED7AE4;
 			remoteInfo = SwiftMoment;
 		};
-		FA74B2659A00BD60D9FEC48EE4FE5438 /* PBXContainerItemProxy */ = {
+		968C8B52EED7F9BC6E36A85D8BECECF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 479ED61A188336B30C418ECA756D2C3D;
+			remoteGlobalIDString = E1B4CF9A6BD86077FA6F573162D0A891;
+			remoteInfo = EVReflection;
+		};
+		A8744D7FD1DDF4D47E8157C918797BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D8656B17A81DC70121DE7184FBC4351;
+			remoteInfo = EVCloudKitDao;
+		};
+		CA7FD134A6B26DE951E4BF1C2F431E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25847319F734AFFA05C75AF8F7ED7AE4;
 			remoteInfo = SwiftMoment;
 		};
 /* End PBXContainerItemProxy section */
@@ -63,38 +134,48 @@
 /* Begin PBXFileReference section */
 		01FA43EA56BAA31FB459CAC4E61A06F3 /* Pods-NursingCommonTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NursingCommonTests.modulemap"; sourceTree = "<group>"; };
 		038766D0DAED0AD3E580324AF741EEE0 /* Pods-NursingUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NursingUITests-umbrella.h"; sourceTree = "<group>"; };
-		0492E301D902A1A21B51A110982DDFD2 /* SwiftMoment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftMoment.modulemap; sourceTree = "<group>"; };
+		060B938B2B7FBFD010A81177DE4AD5C3 /* CKRecord+EVReflectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CKRecord+EVReflectable.swift"; path = "Source/CloudKit/CKRecord+EVReflectable.swift"; sourceTree = "<group>"; };
 		0AC5251B650A9C61DAEA8589F15710E1 /* Pods-NursingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NursingTests.release.xcconfig"; sourceTree = "<group>"; };
-		0E74C6B9E04BE9701A96DA3A1636FB1D /* SwiftMoment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMoment-umbrella.h"; sourceTree = "<group>"; };
+		0D378534F99CB51B6FABA3F708193F3B /* EVReflectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVReflectable.swift; path = Source/EVReflectable.swift; sourceTree = "<group>"; };
 		11277A3A9DA3D2AF1D2CC9438DE7A8E7 /* Pods-NursingUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NursingUITests-resources.sh"; sourceTree = "<group>"; };
 		12CAEAEA80AAB7FAFA9C52DB2E8E9CFB /* Pods-NursingCommonTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NursingCommonTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		156EBCD410AEBB8C761216CE392EC6F7 /* EVReflection-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVReflection-prefix.pch"; sourceTree = "<group>"; };
 		1641C9ECD318F93307D0A4D8507D426B /* Pods-NursingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NursingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		16FD6E6FB0A64F8D0CD4761E00110237 /* Pods-NursingCommonTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NursingCommonTests-dummy.m"; sourceTree = "<group>"; };
+		1946F594A731796242C74540B280FD4B /* Pods_NursingCommonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NursingCommonTests.framework; path = "Pods-NursingCommonTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6D1545D7813C0676A7A1B20FF28DB8 /* SwiftMoment-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMoment-prefix.pch"; sourceTree = "<group>"; };
 		1C813151B9EF0CF7F184973688CA69D4 /* Pods-NursingCommon-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NursingCommon-resources.sh"; sourceTree = "<group>"; };
-		1E0CB53D1FEEF50F34941085574E1BAC /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = SwiftMoment/SwiftMoment/Extensions.swift; sourceTree = "<group>"; };
-		23B24B7F25B96645207991A3C60AE080 /* SwiftMoment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftMoment-dummy.m"; sourceTree = "<group>"; };
+		1F7D2995DFDB5A5F9A517C7D5821ED2A /* EVArrayExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVArrayExtension.swift; path = Source/EVArrayExtension.swift; sourceTree = "<group>"; };
 		258FF82F870BA50C51B6491F69E3639C /* Pods-Nursing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nursing.release.xcconfig"; sourceTree = "<group>"; };
-		259F4755F77516DC73B7E31BB0DB8743 /* SwiftMoment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMoment.xcconfig; sourceTree = "<group>"; };
-		2BABCC09A59B8F1B00A3C732BF27AFC8 /* SwiftMoment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftMoment.h; path = SwiftMoment/SwiftMoment/SwiftMoment.h; sourceTree = "<group>"; };
-		2E2D541FEDC1F17F848FAD78E9B25E27 /* TimeUnit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeUnit.swift; path = SwiftMoment/SwiftMoment/TimeUnit.swift; sourceTree = "<group>"; };
-		2E2FA04E0E6A231BC826DC0968BD9F54 /* MomentFromNow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MomentFromNow.swift; path = SwiftMoment/SwiftMoment/MomentFromNow.swift; sourceTree = "<group>"; };
+		25F0B22B62E3E8DF561C220F82DB3E57 /* Pods_Nursing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Nursing.framework; path = "Pods-Nursing.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED745604119615C683C1DF695711EED /* Pods_NursingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NursingUITests.framework; path = "Pods-NursingUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDE71BAA910A11DF0DECA215B12C26F /* Pods-Nursing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nursing-umbrella.h"; sourceTree = "<group>"; };
 		2F5350A5A8C886A2D988826F00071310 /* Pods-NursingCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NursingCommon-dummy.m"; sourceTree = "<group>"; };
-		3901D148431822D029A7C6AA1A9676FB /* SwiftMoment-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMoment-prefix.pch"; sourceTree = "<group>"; };
+		30103E70A4020C72B92E02CA0A22750A /* EVDictionaryExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVDictionaryExtension.swift; path = Source/EVDictionaryExtension.swift; sourceTree = "<group>"; };
+		32462A8FFD9B140EBFE3140F1196DE89 /* EVReflection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EVReflection-dummy.m"; sourceTree = "<group>"; };
+		3276B11EA2AE0D7288D6B6BD2A9D7977 /* EVCloudKitDao-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVCloudKitDao-prefix.pch"; sourceTree = "<group>"; };
+		3380F7744AC4E0819C5A16CB187FA7FE /* EVCloudKitDao-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVCloudKitDao-umbrella.h"; sourceTree = "<group>"; };
+		358C7FF64B48D639C4066509E4066DEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CC0B3E97F069C2B124C5B6A3E52CABF /* Pods_NursingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NursingTests.framework; path = "Pods-NursingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F59E3EC3784AAEFD0E802B02AF7BBA0 /* Pods-NursingCommonTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NursingCommonTests-umbrella.h"; sourceTree = "<group>"; };
 		3FF1834761F24D94ADDF8649721BE101 /* Pods-NursingTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NursingTests-resources.sh"; sourceTree = "<group>"; };
-		419B553FC5004F869605B332BAA4B408 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = SwiftMoment/SwiftMoment/Operators.swift; sourceTree = "<group>"; };
-		46C970A80969E00274481CFD48E2DC55 /* Duration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Duration.swift; path = SwiftMoment/SwiftMoment/Duration.swift; sourceTree = "<group>"; };
+		41FB8E68501D624AEC1610584564D1DF /* EVCloudData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVCloudData.swift; path = Source/EVCloudData.swift; sourceTree = "<group>"; };
+		44437D35844F52E16CC28EDD2EDB1FDA /* EVReflection.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EVReflection.xcconfig; sourceTree = "<group>"; };
+		4632074273AB1F518D6F8B13072F25F7 /* SwiftMoment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftMoment.h; path = SwiftMoment/SwiftMoment/SwiftMoment.h; sourceTree = "<group>"; };
 		473A40BA0A6AC721091DE2EABAA2C4F9 /* Pods-NursingUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NursingUITests-frameworks.sh"; sourceTree = "<group>"; };
 		4C7287EBDEDAA54C717D0D915074124E /* Pods-NursingCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NursingCommon.debug.xcconfig"; sourceTree = "<group>"; };
 		4D7B5BF15C34384EFC5167B122EB657A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E009BC5DE4C4C1D9C3417B36A2DFF4C /* Pods_NursingCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NursingCommon.framework; path = "Pods-NursingCommon.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FED99FB8983778F1D3F34DC92C3170E /* Pods-Nursing-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nursing-resources.sh"; sourceTree = "<group>"; };
 		536420D7C81B9813E93CA58F1B95EFFD /* Pods-NursingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NursingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		55B8F57DEB55C6D6BC54538C0240A0F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58EFE65F5EE1B48CA5776EB134B229D3 /* EVReflection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EVReflection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B234D60CC0A057B0EAEDA2CD54B89A3 /* EVCloudKitDao.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EVCloudKitDao.modulemap; sourceTree = "<group>"; };
+		5B9ABD355E51167143AA25FE70D4D09C /* EVCloudKitDao.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVCloudKitDao.swift; path = Source/EVCloudKitDao.swift; sourceTree = "<group>"; };
 		5BC1E8198AA1C971C642173940D7577F /* Pods-NursingCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NursingCommon.modulemap"; sourceTree = "<group>"; };
 		5C4647C337BB7C24C796790EA62E196F /* Pods-NursingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NursingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5F2A648C52FE6B454C82FBB986F21CD6 /* Pods-Nursing-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nursing-frameworks.sh"; sourceTree = "<group>"; };
+		6353445B26B362F0E8E23C347EF5C626 /* SwiftMoment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMoment.xcconfig; sourceTree = "<group>"; };
+		64B59BCE8DD42932A27E30C39D3BD6C5 /* CKDataObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CKDataObject.swift; path = Source/CloudKit/CKDataObject.swift; sourceTree = "<group>"; };
 		69F6182269EDFA7A2C3476F0E8357278 /* Pods-Nursing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Nursing.modulemap"; sourceTree = "<group>"; };
 		6C8BB58EE987AB675AAD6110DA80A372 /* Pods-NursingCommon-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NursingCommon-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E4624653C1A6A17D0BC632B0F637466 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,53 +183,75 @@
 		741FA21D9C27E66BDD3EFE281E478C59 /* Pods-Nursing-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nursing-acknowledgements.plist"; sourceTree = "<group>"; };
 		74934E656F2B849AC95EF9067B50B627 /* Pods-NursingUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NursingUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		778849818D638011A0914805A2516256 /* Pods-NursingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NursingTests-dummy.m"; sourceTree = "<group>"; };
-		7A89E4FAF39D74D787CA031B8B597F7A /* Moment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moment.swift; path = SwiftMoment/SwiftMoment/Moment.swift; sourceTree = "<group>"; };
 		7C5B3EEE1D44E6DDFA63C250E9862933 /* Pods-NursingCommonTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NursingCommonTests-resources.sh"; sourceTree = "<group>"; };
+		7CD01E1E99782DD555E50804423F34E6 /* EVReflection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVReflection.swift; path = Source/EVReflection.swift; sourceTree = "<group>"; };
 		7E725D9FE6837F23C3571A5964B23C81 /* Pods-NursingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NursingTests-umbrella.h"; sourceTree = "<group>"; };
-		8818D2B40A76462131EE595202FBA238 /* LazyBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LazyBox.swift; path = SwiftMoment/SwiftMoment/LazyBox.swift; sourceTree = "<group>"; };
-		89F425321DB79B8F42931C84E734AA28 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EF802607CE319050FEFC62A8119D4B7 /* EVObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVObject.swift; path = Source/EVObject.swift; sourceTree = "<group>"; };
+		8238EA7668523F8B44E762F4B462D848 /* LazyBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LazyBox.swift; path = SwiftMoment/SwiftMoment/LazyBox.swift; sourceTree = "<group>"; };
 		8CBEE34830C58BB505DFB84051AE6B9C /* Pods-NursingCommonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NursingCommonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EA9BCFCDC3008AE4FA3A821B402B2BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9216A8BB2996308F770DB8CE99EDDF7F /* Moment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moment.swift; path = SwiftMoment/SwiftMoment/Moment.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94C39AA835B556AD07965E19680FE8BB /* Pods-NursingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NursingUITests.modulemap"; sourceTree = "<group>"; };
-		96B110894E827F8CA348AF01002DACA0 /* SwiftMoment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftMoment.framework; path = SwiftMoment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		96E42D82035CC1BC3FC2BE368DD6C721 /* Pods_NursingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NursingUITests.framework; path = "Pods-NursingUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		994BB3AF28E5F26F4C14EA1B8A64A24B /* Pods-NursingTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NursingTests-frameworks.sh"; sourceTree = "<group>"; };
+		9E1EC5B25A7F9069283749083ECAF20F /* EVReflection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EVReflection.framework; path = EVReflection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0532BB35F7AD645A410137F09E58737 /* SwiftMoment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftMoment.framework; path = SwiftMoment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A249EE1A272B8323B7350A4FA5167E5B /* EVCloudKitEnums.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVCloudKitEnums.swift; path = Source/EVCloudKitEnums.swift; sourceTree = "<group>"; };
 		A55FADAA2B90DE9304C470AC8A4D0A5D /* Pods-NursingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-NursingTests.modulemap"; sourceTree = "<group>"; };
-		AED6CA9323827C314B78C41DC7A82E73 /* Pods_NursingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NursingTests.framework; path = "Pods-NursingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B28D8D145635D6E88AF11E0F3A279AED /* Pods_Nursing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Nursing.framework; path = "Pods-Nursing.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A680FD249D7AA8CFA12F3B3FD2E4494A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		A8C545223499A4A800F697DB683AD031 /* EVSort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVSort.swift; path = Source/EVSort.swift; sourceTree = "<group>"; };
+		A99F7089981B5658F47BDB462CE31E81 /* EVWorkaroundHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVWorkaroundHelpers.swift; path = Source/EVWorkaroundHelpers.swift; sourceTree = "<group>"; };
+		B2319995B19A094E4EBA561B4E08A9CB /* Duration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Duration.swift; path = SwiftMoment/SwiftMoment/Duration.swift; sourceTree = "<group>"; };
 		B6FF951CDD8CACC4CF814F486C7F8D66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEA522CC8FD1A8FFE682DF5214AD5544 /* Pods-NursingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NursingUITests-dummy.m"; sourceTree = "<group>"; };
+		BFF9CB56A542EE3CF4AEADA270665D4D /* EVReflection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EVReflection.modulemap; sourceTree = "<group>"; };
+		C1EB116EEB4807152951D216F843346B /* MomentFromNow.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MomentFromNow.bundle; path = SwiftMoment/SwiftMoment/MomentFromNow.bundle; sourceTree = "<group>"; };
 		C373AE58ECA9F98814C5C92A61106435 /* Pods-NursingCommonTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NursingCommonTests-frameworks.sh"; sourceTree = "<group>"; };
+		C4157ED67FCF7274DB44CAB56AE0F2AA /* Pods_NursingCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NursingCommon.framework; path = "Pods-NursingCommon.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5905EBFD21606E1736E30A032B2DA0B /* EVglobal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EVglobal.swift; path = Source/EVglobal.swift; sourceTree = "<group>"; };
 		C77EBD79B03032FFBB8B32158938F406 /* Pods-NursingCommonTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NursingCommonTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB20E5DF3298E221AB25CB1D4E7E6143 /* Pods-NursingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NursingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CE084CC57267B05F6B71792E6BDF6441 /* Pods_NursingCommonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NursingCommonTests.framework; path = "Pods-NursingCommonTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB59A0EB41FBF5E7C207DBEA5A19BBA1 /* EVCloudKitDao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EVCloudKitDao.framework; path = EVCloudKitDao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9BC587B9CB315BF18391ECCDDEFAC1 /* SwiftMoment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMoment-umbrella.h"; sourceTree = "<group>"; };
+		CE51BC6693959009AFA0DD40C1D5EF0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0598E9EC95161F7E3DD2740A1026169 /* SwiftMoment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftMoment-dummy.m"; sourceTree = "<group>"; };
+		D2E542BFA0449CDEA1E13F0FC15E83AB /* MomentFromNow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MomentFromNow.swift; path = SwiftMoment/SwiftMoment/MomentFromNow.swift; sourceTree = "<group>"; };
 		D3DF870528258856A8EBB1D2BB20DE3B /* Pods-NursingCommon-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NursingCommon-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D91D8B6E7BBB21E0C53EE5DD1B48AC59 /* MomentFromNow.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MomentFromNow.bundle; path = SwiftMoment/SwiftMoment/MomentFromNow.bundle; sourceTree = "<group>"; };
+		D61E26C5354AB76E04D3C973531072F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72DAAEBFB299A1ACB410BA3FCF153D1 /* TimeUnit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeUnit.swift; path = SwiftMoment/SwiftMoment/TimeUnit.swift; sourceTree = "<group>"; };
+		DB70EAB149819A5628FD28F5EB015FB9 /* EVCloudKitDao-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EVCloudKitDao-dummy.m"; sourceTree = "<group>"; };
 		E619140EBCA89848BEF00B6085808927 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8F433E5E11BB462EDAF377CCD7EEC87 /* Pods-NursingCommonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NursingCommonTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9267E5119FEF5241D352117ED634B5A /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = SwiftMoment/SwiftMoment/Extensions.swift; sourceTree = "<group>"; };
 		EAAFD777764D068DD050320181DF823D /* Pods-NursingCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NursingCommon-umbrella.h"; sourceTree = "<group>"; };
 		EDF0CDEB94BAC90FE2C82F3BA93BB4C2 /* Pods-Nursing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nursing.debug.xcconfig"; sourceTree = "<group>"; };
 		F02C3432826250E19CD94FA5216176F2 /* Pods-Nursing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nursing-dummy.m"; sourceTree = "<group>"; };
+		F0E6A043035930D200A8CFA80119D2F3 /* SwiftMoment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftMoment.modulemap; sourceTree = "<group>"; };
 		F113A595C821DF82C03F659D9D4283AE /* Pods-NursingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NursingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4D9C8E2C8FF0F1D71EBC18FE73AF23A /* EVCloudKitDao.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EVCloudKitDao.xcconfig; sourceTree = "<group>"; };
+		F671D4043E84F5636BE80051AE41B7D3 /* EVReflection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EVReflection-umbrella.h"; sourceTree = "<group>"; };
+		F7152BC73357AA9B40080C789C005D6D /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = SwiftMoment/SwiftMoment/Operators.swift; sourceTree = "<group>"; };
 		FA67251CC87802730D3FE2B841769776 /* Pods-NursingCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NursingCommon.release.xcconfig"; sourceTree = "<group>"; };
 		FC0FBDB8FCFFF885DC4D8365550AA730 /* Pods-Nursing-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nursing-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		197A88CBD954CEE07986D0E33C32DB16 /* Frameworks */ = {
+		0BAB2AAF62BC5221ECC2F2DBBBE3CA7C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				226A6F20223A7E85A66CB69159F27238 /* Foundation.framework in Frameworks */,
+				CB18796E9D9DF4DC5B11BBACEEE0FCDE /* CloudKit.framework in Frameworks */,
+				9AC4510379B952F83C6FEE8EF06FC689 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23967395F6C6C16335E4396623740D98 /* Frameworks */ = {
+		38CD2CDF257D0B154F747CB522FED4D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8131B978B2635844278D2A2AEA8582E3 /* Foundation.framework in Frameworks */,
+				4298CDF8C088773F1576C83403B30247 /* CloudKit.framework in Frameworks */,
+				A448FA90F8C524E40CE09C152C583505 /* EVReflection.framework in Frameworks */,
+				8053CD703D594D09DF4E4FE8C7741964 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,19 +263,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		51322FE1CECC03D375E497A45A530E1C /* Frameworks */ = {
+		6CEB3F126085FC21674549465577A944 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F1CF42D149859E413E516B2E89028D /* Foundation.framework in Frameworks */,
+				AD1232D7FABAA816510CC9D0C75F21DB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		665265A4CE1CA4C4DC26665456F9ABBA /* Frameworks */ = {
+		7EEC7D9538253CFD7890AF253384F82D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB72C4FAAF73217131DFE3C051F106D9 /* Foundation.framework in Frameworks */,
+				9A114EAF797637E16F6520BAB1E6F9E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8140B569E3F565236894FF39FC870DD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0929F9282034152603CDBCA4D8B869 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F6C2C932A9D2EC87F694A6E85A850D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E99D3173669D2B0F87E67FD9D604968 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,68 +324,54 @@
 			path = "Target Support Files/Pods-Nursing";
 			sourceTree = "<group>";
 		};
-		3D87978C8D066EB30114B2FCCD4A50CC /* Products */ = {
+		5AADBC38A3E79C4216F3B454C8926D1B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B28D8D145635D6E88AF11E0F3A279AED /* Pods_Nursing.framework */,
-				4E009BC5DE4C4C1D9C3417B36A2DFF4C /* Pods_NursingCommon.framework */,
-				CE084CC57267B05F6B71792E6BDF6441 /* Pods_NursingCommonTests.framework */,
-				AED6CA9323827C314B78C41DC7A82E73 /* Pods_NursingTests.framework */,
-				96E42D82035CC1BC3FC2BE368DD6C721 /* Pods_NursingUITests.framework */,
-				96B110894E827F8CA348AF01002DACA0 /* SwiftMoment.framework */,
+				A680FD249D7AA8CFA12F3B3FD2E4494A /* CloudKit.framework */,
+				CE51BC6693959009AFA0DD40C1D5EF0E /* Foundation.framework */,
 			);
-			name = Products;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		41F529E46552644349A27BD4E96D69BF /* Pods */ = {
+		5F1F04BD3EF2B1368774C013A524E2D4 /* SwiftMoment */ = {
 			isa = PBXGroup;
 			children = (
-				5D82AEED6F63E9BDD89A123952233799 /* SwiftMoment */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		5D82AEED6F63E9BDD89A123952233799 /* SwiftMoment */ = {
-			isa = PBXGroup;
-			children = (
-				46C970A80969E00274481CFD48E2DC55 /* Duration.swift */,
-				1E0CB53D1FEEF50F34941085574E1BAC /* Extensions.swift */,
-				8818D2B40A76462131EE595202FBA238 /* LazyBox.swift */,
-				7A89E4FAF39D74D787CA031B8B597F7A /* Moment.swift */,
-				2E2FA04E0E6A231BC826DC0968BD9F54 /* MomentFromNow.swift */,
-				419B553FC5004F869605B332BAA4B408 /* Operators.swift */,
-				2BABCC09A59B8F1B00A3C732BF27AFC8 /* SwiftMoment.h */,
-				2E2D541FEDC1F17F848FAD78E9B25E27 /* TimeUnit.swift */,
-				7D6A10B884F5DBB0EEF3268E2B769AAD /* Resources */,
-				AEA54302FD14F0C5635E37285A0BB5D1 /* Support Files */,
+				B2319995B19A094E4EBA561B4E08A9CB /* Duration.swift */,
+				E9267E5119FEF5241D352117ED634B5A /* Extensions.swift */,
+				8238EA7668523F8B44E762F4B462D848 /* LazyBox.swift */,
+				9216A8BB2996308F770DB8CE99EDDF7F /* Moment.swift */,
+				D2E542BFA0449CDEA1E13F0FC15E83AB /* MomentFromNow.swift */,
+				F7152BC73357AA9B40080C789C005D6D /* Operators.swift */,
+				4632074273AB1F518D6F8B13072F25F7 /* SwiftMoment.h */,
+				D72DAAEBFB299A1ACB410BA3FCF153D1 /* TimeUnit.swift */,
+				F45DE715CC1737F64476CFBB6B12C683 /* Resources */,
+				AA978DDB073A55C42AD9056EF08A5658 /* Support Files */,
 			);
 			name = SwiftMoment;
 			path = SwiftMoment;
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+		759828D0FC994AD6F3939349A1A1E556 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				BFF9CB56A542EE3CF4AEADA270665D4D /* EVReflection.modulemap */,
+				44437D35844F52E16CC28EDD2EDB1FDA /* EVReflection.xcconfig */,
+				32462A8FFD9B140EBFE3140F1196DE89 /* EVReflection-dummy.m */,
+				156EBCD410AEBB8C761216CE392EC6F7 /* EVReflection-prefix.pch */,
+				F671D4043E84F5636BE80051AE41B7D3 /* EVReflection-umbrella.h */,
+				D61E26C5354AB76E04D3C973531072F6 /* Info.plist */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7D6A10B884F5DBB0EEF3268E2B769AAD /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D91D8B6E7BBB21E0C53EE5DD1B48AC59 /* MomentFromNow.bundle */,
-			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/EVReflection";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				41F529E46552644349A27BD4E96D69BF /* Pods */,
-				3D87978C8D066EB30114B2FCCD4A50CC /* Products */,
+				E1E7151D5C9FACCF5EF338AA9D8B31BE /* Frameworks */,
+				DF05A79166E8EADF019B1D3DDC75B46D /* Pods */,
+				923E129A6BB8016CFB4305EF7F93E064 /* Products */,
 				855700C0B1F117B5C89044BDB1AFEE8E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -289,6 +394,17 @@
 			path = "Target Support Files/Pods-NursingUITests";
 			sourceTree = "<group>";
 		};
+		8419D835B99079F075CB3CD7BFAD0E37 /* EVReflection */ = {
+			isa = PBXGroup;
+			children = (
+				F357293A0DF4AE04E22351B741DAB784 /* CloudKit */,
+				E4864A64B498EACC568E38E49C0E94F2 /* Core */,
+				759828D0FC994AD6F3939349A1A1E556 /* Support Files */,
+			);
+			name = EVReflection;
+			path = EVReflection;
+			sourceTree = "<group>";
+		};
 		855700C0B1F117B5C89044BDB1AFEE8E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,6 +415,21 @@
 				7EC80C1B359BEFDB7B1A60D7FBAFAF2F /* Pods-NursingUITests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		923E129A6BB8016CFB4305EF7F93E064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB59A0EB41FBF5E7C207DBEA5A19BBA1 /* EVCloudKitDao.framework */,
+				9E1EC5B25A7F9069283749083ECAF20F /* EVReflection.framework */,
+				25F0B22B62E3E8DF561C220F82DB3E57 /* Pods_Nursing.framework */,
+				C4157ED67FCF7274DB44CAB56AE0F2AA /* Pods_NursingCommon.framework */,
+				1946F594A731796242C74540B280FD4B /* Pods_NursingCommonTests.framework */,
+				3CC0B3E97F069C2B124C5B6A3E52CABF /* Pods_NursingTests.framework */,
+				2ED745604119615C683C1DF695711EED /* Pods_NursingUITests.framework */,
+				A0532BB35F7AD645A410137F09E58737 /* SwiftMoment.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		9EAFCF85F5FEA5522331BD1D9C0C0F76 /* Pods-NursingTests */ = {
@@ -336,15 +467,15 @@
 			path = "Target Support Files/Pods-NursingCommon";
 			sourceTree = "<group>";
 		};
-		AEA54302FD14F0C5635E37285A0BB5D1 /* Support Files */ = {
+		AA978DDB073A55C42AD9056EF08A5658 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				89F425321DB79B8F42931C84E734AA28 /* Info.plist */,
-				0492E301D902A1A21B51A110982DDFD2 /* SwiftMoment.modulemap */,
-				259F4755F77516DC73B7E31BB0DB8743 /* SwiftMoment.xcconfig */,
-				23B24B7F25B96645207991A3C60AE080 /* SwiftMoment-dummy.m */,
-				3901D148431822D029A7C6AA1A9676FB /* SwiftMoment-prefix.pch */,
-				0E74C6B9E04BE9701A96DA3A1636FB1D /* SwiftMoment-umbrella.h */,
+				8EA9BCFCDC3008AE4FA3A821B402B2BC /* Info.plist */,
+				F0E6A043035930D200A8CFA80119D2F3 /* SwiftMoment.modulemap */,
+				6353445B26B362F0E8E23C347EF5C626 /* SwiftMoment.xcconfig */,
+				D0598E9EC95161F7E3DD2740A1026169 /* SwiftMoment-dummy.m */,
+				1B6D1545D7813C0676A7A1B20FF28DB8 /* SwiftMoment-prefix.pch */,
+				CB9BC587B9CB315BF18391ECCDDEFAC1 /* SwiftMoment-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftMoment";
@@ -368,22 +499,132 @@
 			path = "Target Support Files/Pods-NursingCommonTests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C64C4E12CF5C0D6DDB6A485420CB6C9B /* EVCloudKitDao */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				41FB8E68501D624AEC1610584564D1DF /* EVCloudData.swift */,
+				5B9ABD355E51167143AA25FE70D4D09C /* EVCloudKitDao.swift */,
+				A249EE1A272B8323B7350A4FA5167E5B /* EVCloudKitEnums.swift */,
+				C5905EBFD21606E1736E30A032B2DA0B /* EVglobal.swift */,
+				A8C545223499A4A800F697DB683AD031 /* EVSort.swift */,
+				F7CED71FBBF09910758D88375BB7D734 /* Support Files */,
+			);
+			name = EVCloudKitDao;
+			path = EVCloudKitDao;
+			sourceTree = "<group>";
+		};
+		DF05A79166E8EADF019B1D3DDC75B46D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C64C4E12CF5C0D6DDB6A485420CB6C9B /* EVCloudKitDao */,
+				8419D835B99079F075CB3CD7BFAD0E37 /* EVReflection */,
+				5F1F04BD3EF2B1368774C013A524E2D4 /* SwiftMoment */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1E7151D5C9FACCF5EF338AA9D8B31BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58EFE65F5EE1B48CA5776EB134B229D3 /* EVReflection.framework */,
+				5AADBC38A3E79C4216F3B454C8926D1B /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4864A64B498EACC568E38E49C0E94F2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1F7D2995DFDB5A5F9A517C7D5821ED2A /* EVArrayExtension.swift */,
+				30103E70A4020C72B92E02CA0A22750A /* EVDictionaryExtension.swift */,
+				7EF802607CE319050FEFC62A8119D4B7 /* EVObject.swift */,
+				0D378534F99CB51B6FABA3F708193F3B /* EVReflectable.swift */,
+				7CD01E1E99782DD555E50804423F34E6 /* EVReflection.swift */,
+				A99F7089981B5658F47BDB462CE31E81 /* EVWorkaroundHelpers.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F357293A0DF4AE04E22351B741DAB784 /* CloudKit */ = {
+			isa = PBXGroup;
+			children = (
+				64B59BCE8DD42932A27E30C39D3BD6C5 /* CKDataObject.swift */,
+				060B938B2B7FBFD010A81177DE4AD5C3 /* CKRecord+EVReflectable.swift */,
+			);
+			name = CloudKit;
+			sourceTree = "<group>";
+		};
+		F45DE715CC1737F64476CFBB6B12C683 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1EB116EEB4807152951D216F843346B /* MomentFromNow.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F7CED71FBBF09910758D88375BB7D734 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B234D60CC0A057B0EAEDA2CD54B89A3 /* EVCloudKitDao.modulemap */,
+				F4D9C8E2C8FF0F1D71EBC18FE73AF23A /* EVCloudKitDao.xcconfig */,
+				DB70EAB149819A5628FD28F5EB015FB9 /* EVCloudKitDao-dummy.m */,
+				3276B11EA2AE0D7288D6B6BD2A9D7977 /* EVCloudKitDao-prefix.pch */,
+				3380F7744AC4E0819C5A16CB187FA7FE /* EVCloudKitDao-umbrella.h */,
+				358C7FF64B48D639C4066509E4066DEB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EVCloudKitDao";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		71B265A61C4186A0CEDF002243DAC551 /* Headers */ = {
+		16DEC7A0FF969CA6471E544150753BB0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99235F94226F39771276C948921D231D /* Pods-NursingCommonTests-umbrella.h in Headers */,
+				DBE2D1FA493F6EDBE90201B1261058A1 /* EVReflection-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2589C49BC7BFC16107465AD7A0D2D451 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB5977B22B1B1C5C6AB02845B658E63 /* EVCloudKitDao-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A5A1A4A78CC20AB0F742B8AD57234B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA63D70E259F4EE4A34981DE35C7D5A /* SwiftMoment-umbrella.h in Headers */,
+				8B42EAE26A0BA6358A7A2DE5D9E4B1E7 /* SwiftMoment.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BC038CFA415B019CA685CB8CC0C932 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D414D19187CC52E2305FF0B34450A02D /* Pods-NursingCommonTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C945A2D62E541C670DDAE5AF743FAAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017DE8AF468988F804F269309AE5038B /* Pods-NursingCommon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B14C50A36E45F1638B096C712DCC4AAE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3385783CD29F8A3E2267608B5E3D510 /* Pods-Nursing-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,31 +641,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5C33DD343AD5451B6C2F6F1996E5FE3 /* Pods-NursingTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EFEBD80EF5CAC5A7F37C19E2CE276843 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				624F52DD277A9DC3BFF18EFE164CA220 /* Pods-Nursing-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F763508848BA1F88A1F6EECBD2F8D756 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AF88BAD028CC3E76A410030F35D35D2E /* SwiftMoment-umbrella.h in Headers */,
-				2609E1F420461AAB0E6EA66AD6D2A957 /* SwiftMoment.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F79158BF1424AA520DDDEA3DC16D674F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F1DE930AF3FE4AF0A802E949DC0D94B /* Pods-NursingCommon-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,17 +661,17 @@
 			);
 			name = "Pods-NursingUITests";
 			productName = "Pods-NursingUITests";
-			productReference = 96E42D82035CC1BC3FC2BE368DD6C721 /* Pods_NursingUITests.framework */;
+			productReference = 2ED745604119615C683C1DF695711EED /* Pods_NursingUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		479ED61A188336B30C418ECA756D2C3D /* SwiftMoment */ = {
+		25847319F734AFFA05C75AF8F7ED7AE4 /* SwiftMoment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5DD38A3C252B1DA0E8917C235DD4BAB /* Build configuration list for PBXNativeTarget "SwiftMoment" */;
+			buildConfigurationList = 7DF089C450C2568C8190E769C97B5AC5 /* Build configuration list for PBXNativeTarget "SwiftMoment" */;
 			buildPhases = (
-				F5AF2188D5A2CE73E07D97DB5717E2CB /* Sources */,
-				23967395F6C6C16335E4396623740D98 /* Frameworks */,
-				F763508848BA1F88A1F6EECBD2F8D756 /* Headers */,
-				60642AD1E5CF1F0D23C4E7AC4309004A /* Resources */,
+				EA28FB1F5A4D4BFF6D1618225AC9E470 /* Sources */,
+				8140B569E3F565236894FF39FC870DD7 /* Frameworks */,
+				29A5A1A4A78CC20AB0F742B8AD57234B /* Headers */,
+				DFFDB50EE05297B98D7A4CABC54B4433 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -463,43 +679,67 @@
 			);
 			name = SwiftMoment;
 			productName = SwiftMoment;
-			productReference = 96B110894E827F8CA348AF01002DACA0 /* SwiftMoment.framework */;
+			productReference = A0532BB35F7AD645A410137F09E58737 /* SwiftMoment.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		561AEAF5CD6FBDE7153028E3650688AE /* Pods-NursingCommon */ = {
+		2F67726F3F2CDC81AA9223A71BDC8AF4 /* Pods-NursingCommonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2C9C765E20C04D4BA6C69F560BB3374 /* Build configuration list for PBXNativeTarget "Pods-NursingCommon" */;
+			buildConfigurationList = 15B6F5B0BC3065B065DCD2F4850D18CF /* Build configuration list for PBXNativeTarget "Pods-NursingCommonTests" */;
 			buildPhases = (
-				C6F6943C17C0BE084EC743A0C5DBFA43 /* Sources */,
-				197A88CBD954CEE07986D0E33C32DB16 /* Frameworks */,
-				F79158BF1424AA520DDDEA3DC16D674F /* Headers */,
+				C15D1D4ECF134DBC9A8561B614FAD4E6 /* Sources */,
+				7EEC7D9538253CFD7890AF253384F82D /* Frameworks */,
+				45BC038CFA415B019CA685CB8CC0C932 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				39CE27FE6DBA496AAA12F57E7FC2307C /* PBXTargetDependency */,
+				C5A36434C8458B6B6A2F15A64467446B /* PBXTargetDependency */,
+				66A84BFB10F1C49652A009A027057A2D /* PBXTargetDependency */,
+				7195AA08DF0BCE1BC2CA524C028C36F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-NursingCommonTests";
+			productName = "Pods-NursingCommonTests";
+			productReference = 1946F594A731796242C74540B280FD4B /* Pods_NursingCommonTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32B000BFF4A3FE3827CB0618837B76CC /* Pods-NursingCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B3B248BC55A6071B2812C3E07F95A7C /* Build configuration list for PBXNativeTarget "Pods-NursingCommon" */;
+			buildPhases = (
+				7D86EE53084BAD0D3DA14EE6C55F2567 /* Sources */,
+				6CEB3F126085FC21674549465577A944 /* Frameworks */,
+				4C945A2D62E541C670DDAE5AF743FAAF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				791744B318F81023B847DD8767BAE841 /* PBXTargetDependency */,
+				A444E1E8DED15AE0DBE4A9300D1BD451 /* PBXTargetDependency */,
+				6CB4EF5F723BCB06DD25A5E6C266FC20 /* PBXTargetDependency */,
 			);
 			name = "Pods-NursingCommon";
 			productName = "Pods-NursingCommon";
-			productReference = 4E009BC5DE4C4C1D9C3417B36A2DFF4C /* Pods_NursingCommon.framework */;
+			productReference = C4157ED67FCF7274DB44CAB56AE0F2AA /* Pods_NursingCommon.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5753A6FB44A3558D64DDD4FF31D96A4F /* Pods-Nursing */ = {
+		3C63BEF9CBD75E3CD91C30712397008F /* Pods-Nursing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0AEC7B3FA5C362534D8DE0B355BCF964 /* Build configuration list for PBXNativeTarget "Pods-Nursing" */;
+			buildConfigurationList = BED157AE7FBC1BFB231E9D3DEF94704A /* Build configuration list for PBXNativeTarget "Pods-Nursing" */;
 			buildPhases = (
-				A40A81AF6248131713749CF8F2086CCC /* Sources */,
-				665265A4CE1CA4C4DC26665456F9ABBA /* Frameworks */,
-				EFEBD80EF5CAC5A7F37C19E2CE276843 /* Headers */,
+				B9DF59B3FE653C1DB8ADB6BCE5125113 /* Sources */,
+				C2F6C2C932A9D2EC87F694A6E85A850D /* Frameworks */,
+				B14C50A36E45F1638B096C712DCC4AAE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E72485083A65129B9B0445D2100383EA /* PBXTargetDependency */,
+				E922DF5F01A559D0EDC0059128E8FD8D /* PBXTargetDependency */,
+				C1E736EFF78F2B5756602EEDB6E51947 /* PBXTargetDependency */,
+				E49802FC5698D9A386E66E400691D106 /* PBXTargetDependency */,
 			);
 			name = "Pods-Nursing";
 			productName = "Pods-Nursing";
-			productReference = B28D8D145635D6E88AF11E0F3A279AED /* Pods_Nursing.framework */;
+			productReference = 25F0B22B62E3E8DF561C220F82DB3E57 /* Pods_Nursing.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		61D504695E37E0C0719FD7587033B6DF /* Pods-NursingTests */ = {
@@ -516,25 +756,42 @@
 			);
 			name = "Pods-NursingTests";
 			productName = "Pods-NursingTests";
-			productReference = AED6CA9323827C314B78C41DC7A82E73 /* Pods_NursingTests.framework */;
+			productReference = 3CC0B3E97F069C2B124C5B6A3E52CABF /* Pods_NursingTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D5335A0FDD7EC36932387912B6CBA4DB /* Pods-NursingCommonTests */ = {
+		7D8656B17A81DC70121DE7184FBC4351 /* EVCloudKitDao */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F70DBABED1FA53D1887572B380ECF7C2 /* Build configuration list for PBXNativeTarget "Pods-NursingCommonTests" */;
+			buildConfigurationList = 55332BA4C363844510F71D350D6D6334 /* Build configuration list for PBXNativeTarget "EVCloudKitDao" */;
 			buildPhases = (
-				EAEE4B12F5D9A44D84FB5C021ECF2DF5 /* Sources */,
-				51322FE1CECC03D375E497A45A530E1C /* Frameworks */,
-				71B265A61C4186A0CEDF002243DAC551 /* Headers */,
+				07A0108E59904C6030EBC370AA706C5A /* Sources */,
+				38CD2CDF257D0B154F747CB522FED4D8 /* Frameworks */,
+				2589C49BC7BFC16107465AD7A0D2D451 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8991EAE2BFE0260752868B3D9E345300 /* PBXTargetDependency */,
+				548DB4FB0388B43D0E3774C2BEA7ACFC /* PBXTargetDependency */,
 			);
-			name = "Pods-NursingCommonTests";
-			productName = "Pods-NursingCommonTests";
-			productReference = CE084CC57267B05F6B71792E6BDF6441 /* Pods_NursingCommonTests.framework */;
+			name = EVCloudKitDao;
+			productName = EVCloudKitDao;
+			productReference = CB59A0EB41FBF5E7C207DBEA5A19BBA1 /* EVCloudKitDao.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1B4CF9A6BD86077FA6F573162D0A891 /* EVReflection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526ADA456A313F28CAE10AA29870787E /* Build configuration list for PBXNativeTarget "EVReflection" */;
+			buildPhases = (
+				C253ADC45380D7EBBD067DAD2EA8EC31 /* Sources */,
+				0BAB2AAF62BC5221ECC2F2DBBBE3CA7C /* Frameworks */,
+				16DEC7A0FF969CA6471E544150753BB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EVReflection;
+			productName = EVReflection;
+			productReference = 9E1EC5B25A7F9069283749083ECAF20F /* EVReflection.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -554,32 +811,47 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3D87978C8D066EB30114B2FCCD4A50CC /* Products */;
+			productRefGroup = 923E129A6BB8016CFB4305EF7F93E064 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5753A6FB44A3558D64DDD4FF31D96A4F /* Pods-Nursing */,
-				561AEAF5CD6FBDE7153028E3650688AE /* Pods-NursingCommon */,
-				D5335A0FDD7EC36932387912B6CBA4DB /* Pods-NursingCommonTests */,
+				7D8656B17A81DC70121DE7184FBC4351 /* EVCloudKitDao */,
+				E1B4CF9A6BD86077FA6F573162D0A891 /* EVReflection */,
+				3C63BEF9CBD75E3CD91C30712397008F /* Pods-Nursing */,
+				32B000BFF4A3FE3827CB0618837B76CC /* Pods-NursingCommon */,
+				2F67726F3F2CDC81AA9223A71BDC8AF4 /* Pods-NursingCommonTests */,
 				61D504695E37E0C0719FD7587033B6DF /* Pods-NursingTests */,
 				25683AE0D23DF758257B049E497CEEB6 /* Pods-NursingUITests */,
-				479ED61A188336B30C418ECA756D2C3D /* SwiftMoment */,
+				25847319F734AFFA05C75AF8F7ED7AE4 /* SwiftMoment */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		60642AD1E5CF1F0D23C4E7AC4309004A /* Resources */ = {
+		DFFDB50EE05297B98D7A4CABC54B4433 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83922E48FC8FDB85A8F16F7F6B2030C7 /* MomentFromNow.bundle in Resources */,
+				1013945CD59C970A2DAAB4AF2CFACD7F /* MomentFromNow.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		07A0108E59904C6030EBC370AA706C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5C54DA464C06D4EFE43BB0B27C5D55 /* EVCloudData.swift in Sources */,
+				F63B100EE1CF912B0290602CD8EDCAA1 /* EVCloudKitDao-dummy.m in Sources */,
+				501BEFB39576C2B88B0BBC2CA666A2FB /* EVCloudKitDao.swift in Sources */,
+				45CECC5F6F26256AC1F2FB7A8731C5AA /* EVCloudKitEnums.swift in Sources */,
+				E5191E6DA7F52A7EE764C6B338570C58 /* EVglobal.swift in Sources */,
+				570E7D087B5325D921103D5221752DBC /* EVSort.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7A8BE21034ED5C66B15D7838E48EAD66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -588,11 +860,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A40A81AF6248131713749CF8F2086CCC /* Sources */ = {
+		7D86EE53084BAD0D3DA14EE6C55F2567 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C198AAF7FCD7A8CAC213F8AFB90774B /* Pods-Nursing-dummy.m in Sources */,
+				AED32AEC7CBD597797DDA8C2A8F92963 /* Pods-NursingCommon-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,64 +876,155 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6F6943C17C0BE084EC743A0C5DBFA43 /* Sources */ = {
+		B9DF59B3FE653C1DB8ADB6BCE5125113 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				073BC6EBDDE944F8FB5A72F3A6C4D6F4 /* Pods-NursingCommon-dummy.m in Sources */,
+				E174E8C28D487C2C5DDB4B905B905D5E /* Pods-Nursing-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAEE4B12F5D9A44D84FB5C021ECF2DF5 /* Sources */ = {
+		C15D1D4ECF134DBC9A8561B614FAD4E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC3FF7E0016FBA85041CE5D24966F955 /* Pods-NursingCommonTests-dummy.m in Sources */,
+				65F2C68C61B2B2082B11C68F8112FFCC /* Pods-NursingCommonTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5AF2188D5A2CE73E07D97DB5717E2CB /* Sources */ = {
+		C253ADC45380D7EBBD067DAD2EA8EC31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C8C743249419366ED8947E2E6845EF6 /* Duration.swift in Sources */,
-				0867D5831C3D413FDD781A922C4012B3 /* Extensions.swift in Sources */,
-				FF747900C49ABD69209839B8C2C1E78A /* LazyBox.swift in Sources */,
-				7DC555C7C9EE6D19C9E425C9248D24B2 /* Moment.swift in Sources */,
-				7D7BBB9F95B25782EA506A9073BDC229 /* MomentFromNow.swift in Sources */,
-				F2F3AB93E618C58208D8468D240E0300 /* Operators.swift in Sources */,
-				12FC7EF5DDBFCF7F42845C019046F180 /* SwiftMoment-dummy.m in Sources */,
-				B7D313043A31527EC958764BF76B30F7 /* TimeUnit.swift in Sources */,
+				912F08C5511EC4FA2DF4B705611AE872 /* CKDataObject.swift in Sources */,
+				7B07B98E8ADA513AD963B6927C487B3A /* CKRecord+EVReflectable.swift in Sources */,
+				4F2E290E0A42EB1035E466DCDB104F0F /* EVArrayExtension.swift in Sources */,
+				9F650C01DD559A89E787D836DB2052F3 /* EVDictionaryExtension.swift in Sources */,
+				490996894CF696C87BFD27127D58018A /* EVObject.swift in Sources */,
+				3E8873B3ED29EB941D7962E955332A87 /* EVReflectable.swift in Sources */,
+				FED685BC70EA610611B5A00EAF93134E /* EVReflection-dummy.m in Sources */,
+				B76F25EEE90370ECD11B3F2094D543AB /* EVReflection.swift in Sources */,
+				D90FDD2DA222DA38160619AA66FD343A /* EVWorkaroundHelpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA28FB1F5A4D4BFF6D1618225AC9E470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237951D67CE83DC77DF9816B09F2BF56 /* Duration.swift in Sources */,
+				9B7E8AAE8E09DF7B579604B87C9375DB /* Extensions.swift in Sources */,
+				80E65ABD5D7EAFD7732B799974A7C24F /* LazyBox.swift in Sources */,
+				EA7232A1DB0E1D34471BB9176CA2F25A /* Moment.swift in Sources */,
+				C4AF73C3D9BED70C798893F8E37E66C4 /* MomentFromNow.swift in Sources */,
+				E63011EBB3453E81B339D854BB692167 /* Operators.swift in Sources */,
+				BB5A2A790A534E41404187C59FC409F5 /* SwiftMoment-dummy.m in Sources */,
+				FE8A4A8E30491373BE36D1931C93DD23 /* TimeUnit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		39CE27FE6DBA496AAA12F57E7FC2307C /* PBXTargetDependency */ = {
+		548DB4FB0388B43D0E3774C2BEA7ACFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SwiftMoment;
-			target = 479ED61A188336B30C418ECA756D2C3D /* SwiftMoment */;
-			targetProxy = 94F0EBEE0635D4D36B738930AD18B3A9 /* PBXContainerItemProxy */;
+			name = EVReflection;
+			target = E1B4CF9A6BD86077FA6F573162D0A891 /* EVReflection */;
+			targetProxy = 08B9369ED1555E47D17BBDD32DB36F7F /* PBXContainerItemProxy */;
 		};
-		8991EAE2BFE0260752868B3D9E345300 /* PBXTargetDependency */ = {
+		66A84BFB10F1C49652A009A027057A2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SwiftMoment;
-			target = 479ED61A188336B30C418ECA756D2C3D /* SwiftMoment */;
-			targetProxy = 4D6B8EC8A6760D5C8B0012DEF2B0773A /* PBXContainerItemProxy */;
+			name = EVReflection;
+			target = E1B4CF9A6BD86077FA6F573162D0A891 /* EVReflection */;
+			targetProxy = 34321B3FB1CE4B3C3DA7A683BA52D32A /* PBXContainerItemProxy */;
 		};
-		E72485083A65129B9B0445D2100383EA /* PBXTargetDependency */ = {
+		6CB4EF5F723BCB06DD25A5E6C266FC20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftMoment;
-			target = 479ED61A188336B30C418ECA756D2C3D /* SwiftMoment */;
-			targetProxy = FA74B2659A00BD60D9FEC48EE4FE5438 /* PBXContainerItemProxy */;
+			target = 25847319F734AFFA05C75AF8F7ED7AE4 /* SwiftMoment */;
+			targetProxy = 380074062EDFC91A35DA9C7A40407AAC /* PBXContainerItemProxy */;
+		};
+		7195AA08DF0BCE1BC2CA524C028C36F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMoment;
+			target = 25847319F734AFFA05C75AF8F7ED7AE4 /* SwiftMoment */;
+			targetProxy = 8C4AD0E062EFB11E07C23E4EF35E8C75 /* PBXContainerItemProxy */;
+		};
+		791744B318F81023B847DD8767BAE841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EVCloudKitDao;
+			target = 7D8656B17A81DC70121DE7184FBC4351 /* EVCloudKitDao */;
+			targetProxy = 4800B1EB7ECC5AE8E2E96D5D70212408 /* PBXContainerItemProxy */;
+		};
+		A444E1E8DED15AE0DBE4A9300D1BD451 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EVReflection;
+			target = E1B4CF9A6BD86077FA6F573162D0A891 /* EVReflection */;
+			targetProxy = 968C8B52EED7F9BC6E36A85D8BECECF6 /* PBXContainerItemProxy */;
+		};
+		C1E736EFF78F2B5756602EEDB6E51947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EVReflection;
+			target = E1B4CF9A6BD86077FA6F573162D0A891 /* EVReflection */;
+			targetProxy = 6D348305236F896722C6905CCDD28895 /* PBXContainerItemProxy */;
+		};
+		C5A36434C8458B6B6A2F15A64467446B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EVCloudKitDao;
+			target = 7D8656B17A81DC70121DE7184FBC4351 /* EVCloudKitDao */;
+			targetProxy = 6B8BCC55C9B515216B9C899FDD67F80A /* PBXContainerItemProxy */;
+		};
+		E49802FC5698D9A386E66E400691D106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMoment;
+			target = 25847319F734AFFA05C75AF8F7ED7AE4 /* SwiftMoment */;
+			targetProxy = CA7FD134A6B26DE951E4BF1C2F431E64 /* PBXContainerItemProxy */;
+		};
+		E922DF5F01A559D0EDC0059128E8FD8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EVCloudKitDao;
+			target = 7D8656B17A81DC70121DE7184FBC4351 /* EVCloudKitDao */;
+			targetProxy = A8744D7FD1DDF4D47E8157C918797BEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08A7ECBFE32D4355E4E0772B36A553CB /* Release */ = {
+		082D3E87601939249BE4D6CF267580E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8F433E5E11BB462EDAF377CCD7EEC87 /* Pods-NursingCommonTests.release.xcconfig */;
+			baseConfigurationReference = F4D9C8E2C8FF0F1D71EBC18FE73AF23A /* EVCloudKitDao.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EVCloudKitDao/EVCloudKitDao-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EVCloudKitDao/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EVCloudKitDao/EVCloudKitDao.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EVCloudKitDao;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0DD4B2083E68B7181E2EE17506C0D038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA67251CC87802730D3FE2B841769776 /* Pods-NursingCommon.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -674,18 +1037,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NursingCommonTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-NursingCommon/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NursingCommonTests/Pods-NursingCommonTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-NursingCommon/Pods-NursingCommon.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NursingCommonTests;
+				PRODUCT_NAME = Pods_NursingCommon;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -773,9 +1136,41 @@
 			};
 			name = Release;
 		};
-		1C7DB67170DA6D7A4DBDBB3850268B3D /* Debug */ = {
+		27F3D309689EC99F7B66C0BBC6BFCA30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 259F4755F77516DC73B7E31BB0DB8743 /* SwiftMoment.xcconfig */;
+			baseConfigurationReference = 44437D35844F52E16CC28EDD2EDB1FDA /* EVReflection.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EVReflection/EVReflection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EVReflection/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EVReflection/EVReflection.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EVReflection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29E2101E07E5EC7A77EB89DC8E740BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF0CDEB94BAC90FE2C82F3BA93BB4C2 /* Pods-Nursing.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -788,23 +1183,58 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftMoment/SwiftMoment-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftMoment/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nursing/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftMoment/SwiftMoment.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nursing/Pods-Nursing.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftMoment;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Nursing;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		35CABF6C6A35567BB2FE019645B0C6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4D9C8E2C8FF0F1D71EBC18FE73AF23A /* EVCloudKitDao.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EVCloudKitDao/EVCloudKitDao-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EVCloudKitDao/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EVCloudKitDao/EVCloudKitDao.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EVCloudKitDao;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		3AC3C7E3C2AA0B73F8AF047E79BA8DE9 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -841,15 +1271,15 @@
 			};
 			name = Release;
 		};
-		3BDE74BDD9F80343F936B009410CF1AC /* Release */ = {
+		496488F897070988FB73F6F9DDCE43A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA67251CC87802730D3FE2B841769776 /* Pods-NursingCommon.release.xcconfig */;
+			baseConfigurationReference = 4C7287EBDEDAA54C717D0D915074124E /* Pods-NursingCommon.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -862,7 +1292,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-NursingCommon/Pods-NursingCommon.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -870,11 +1300,12 @@
 				PRODUCT_NAME = Pods_NursingCommon;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		5C880A5031EEA6A6B27F3CD0A78B8754 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -911,43 +1342,42 @@
 			};
 			name = Debug;
 		};
-		9E465E06CF35A1A3A29C41215D2A7339 /* Debug */ = {
+		6CC68A25B6403268EC79854745357CD4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C7287EBDEDAA54C717D0D915074124E /* Pods-NursingCommon.debug.xcconfig */;
+			baseConfigurationReference = E8F433E5E11BB462EDAF377CCD7EEC87 /* Pods-NursingCommonTests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NursingCommon/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-NursingCommonTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NursingCommon/Pods-NursingCommon.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULEMAP_FILE = "Target Support Files/Pods-NursingCommonTests/Pods-NursingCommonTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NursingCommon;
+				PRODUCT_NAME = Pods_NursingCommonTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		A1ED393B98189DA6A2CF1FE28C917499 /* Release */ = {
+		C721ACC2225597306C317B9C9531B4CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 258FF82F870BA50C51B6491F69E3639C /* Pods-Nursing.release.xcconfig */;
 			buildSettings = {
@@ -982,9 +1412,9 @@
 			};
 			name = Release;
 		};
-		BC7FA1F7C908C8F8FEC61E3280B0E97E /* Release */ = {
+		C7E893F446E9C14872487A06191C7935 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 259F4755F77516DC73B7E31BB0DB8743 /* SwiftMoment.xcconfig */;
+			baseConfigurationReference = 6353445B26B362F0E8E23C347EF5C626 /* SwiftMoment.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1013,42 +1443,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		BD945A94211FA601772AB1646F14E6AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDF0CDEB94BAC90FE2C82F3BA93BB4C2 /* Pods-Nursing.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Nursing/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Nursing/Pods-Nursing.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Nursing;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1090,9 +1484,9 @@
 			};
 			name = Release;
 		};
-		EE9367D3E97CE076A0E62FE71E528FB0 /* Debug */ = {
+		EAFAE3ABAE0DB300E7D5766EB561F731 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F113A595C821DF82C03F659D9D4283AE /* Pods-NursingUITests.debug.xcconfig */;
+			baseConfigurationReference = 6353445B26B362F0E8E23C347EF5C626 /* SwiftMoment.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1105,27 +1499,25 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-NursingUITests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMoment/SwiftMoment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMoment/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NursingUITests/Pods-NursingUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SwiftMoment/SwiftMoment.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_NursingUITests;
+				PRODUCT_NAME = SwiftMoment;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F06C43797AF6247C66AE2FFCCD11B319 /* Debug */ = {
+		EB75D25F08DBBF5ACD7E39A1A592CBEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8CBEE34830C58BB505DFB84051AE6B9C /* Pods-NursingCommonTests.debug.xcconfig */;
 			buildSettings = {
@@ -1161,14 +1553,91 @@
 			};
 			name = Debug;
 		};
+		EE9367D3E97CE076A0E62FE71E528FB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F113A595C821DF82C03F659D9D4283AE /* Pods-NursingUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-NursingUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NursingUITests/Pods-NursingUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_NursingUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F76D891C60C5A06C9CA1C3E8BDAF6745 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44437D35844F52E16CC28EDD2EDB1FDA /* EVReflection.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EVReflection/EVReflection-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EVReflection/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EVReflection/EVReflection.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EVReflection;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0AEC7B3FA5C362534D8DE0B355BCF964 /* Build configuration list for PBXNativeTarget "Pods-Nursing" */ = {
+		15B6F5B0BC3065B065DCD2F4850D18CF /* Build configuration list for PBXNativeTarget "Pods-NursingCommonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD945A94211FA601772AB1646F14E6AA /* Debug */,
-				A1ED393B98189DA6A2CF1FE28C917499 /* Release */,
+				EB75D25F08DBBF5ACD7E39A1A592CBEB /* Debug */,
+				6CC68A25B6403268EC79854745357CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B3B248BC55A6071B2812C3E07F95A7C /* Build configuration list for PBXNativeTarget "Pods-NursingCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496488F897070988FB73F6F9DDCE43A1 /* Debug */,
+				0DD4B2083E68B7181E2EE17506C0D038 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1182,11 +1651,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		526ADA456A313F28CAE10AA29870787E /* Build configuration list for PBXNativeTarget "EVReflection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76D891C60C5A06C9CA1C3E8BDAF6745 /* Debug */,
+				27F3D309689EC99F7B66C0BBC6BFCA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5323E6DFAAAF5F08E32527E30BBD9123 /* Build configuration list for PBXNativeTarget "Pods-NursingUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE9367D3E97CE076A0E62FE71E528FB0 /* Debug */,
 				3AC3C7E3C2AA0B73F8AF047E79BA8DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55332BA4C363844510F71D350D6D6334 /* Build configuration list for PBXNativeTarget "EVCloudKitDao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082D3E87601939249BE4D6CF267580E1 /* Debug */,
+				35CABF6C6A35567BB2FE019645B0C6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF089C450C2568C8190E769C97B5AC5 /* Build configuration list for PBXNativeTarget "SwiftMoment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAFAE3ABAE0DB300E7D5766EB561F731 /* Debug */,
+				C7E893F446E9C14872487A06191C7935 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1200,29 +1696,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5DD38A3C252B1DA0E8917C235DD4BAB /* Build configuration list for PBXNativeTarget "SwiftMoment" */ = {
+		BED157AE7FBC1BFB231E9D3DEF94704A /* Build configuration list for PBXNativeTarget "Pods-Nursing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C7DB67170DA6D7A4DBDBB3850268B3D /* Debug */,
-				BC7FA1F7C908C8F8FEC61E3280B0E97E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C2C9C765E20C04D4BA6C69F560BB3374 /* Build configuration list for PBXNativeTarget "Pods-NursingCommon" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9E465E06CF35A1A3A29C41215D2A7339 /* Debug */,
-				3BDE74BDD9F80343F936B009410CF1AC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F70DBABED1FA53D1887572B380ECF7C2 /* Build configuration list for PBXNativeTarget "Pods-NursingCommonTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F06C43797AF6247C66AE2FFCCD11B319 /* Debug */,
-				08A7ECBFE32D4355E4E0772B36A553CB /* Release */,
+				29E2101E07E5EC7A77EB89DC8E740BD0 /* Debug */,
+				C721ACC2225597306C317B9C9531B4CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

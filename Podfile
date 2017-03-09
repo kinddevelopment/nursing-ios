@@ -25,6 +25,7 @@ target 'NursingCommon' do
 
   # Pods for NursingCommon
   pod 'SwiftMoment', '~> 0.7'
+  pod 'EVCloudKitDao', '~> 3.3.2'
 
   target 'NursingCommonTests' do
     inherit! :search_paths
