@@ -15,6 +15,9 @@ public enum MealType: Int {
     case formula = 2
 }
 
+/**
+ Represents a meal/breatfeeding session.
+ */
 public class Meal {
     public var duration = 0
     public var type = MealType.leftBreast
@@ -37,6 +40,9 @@ public class Meal {
         
         if let uwType = MealType.init(rawValue: daoMeal.type) {
             self.type = uwType
+        }
+        else {
+            KDLog("WARNING: Type couldn't be converted from the CKMeal object.")
         }
         
         self.start = moment(daoMeal.start)

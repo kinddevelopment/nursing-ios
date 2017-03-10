@@ -70,7 +70,7 @@ class MealTests: XCTestCase {
     func testInitWithParametersPerformance() {
         // This is an example of a performance test case.
         self.measure {
-            let dut = Meal(duration: 5, type: .rightBreast, start: moment([2015, 01, 19, 20, 45])!)
+            _ = Meal(duration: 5, type: .rightBreast, start: moment([2015, 01, 19, 20, 45])!)
         }
     }
     

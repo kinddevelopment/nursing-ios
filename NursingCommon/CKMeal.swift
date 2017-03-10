@@ -9,7 +9,13 @@
 import CloudKit
 import EVReflection
 
-public class CKMeal: CKDataObject {
+/**
+ Represents a meal/breatfeeding session with CloudKit. As CloudKit cannot
+ handle all data types whis intermediate class is needed between CloudKit and
+ the `Meal` class.
+ 
+ */
+class CKMeal: CKDataObject {
     var duration: Int = 0
     var start: Date = Date.init()
     var type: Int = MealType.leftBreast.rawValue
