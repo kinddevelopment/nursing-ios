@@ -1,12 +1,20 @@
 PODS:
+  - EVCloudKitDao (3.3.2):
+    - EVReflection/CloudKit
+  - EVReflection/CloudKit (4.4.1):
+    - EVReflection/Core
+  - EVReflection/Core (4.4.1)
   - SwiftMoment (0.7)
 
 DEPENDENCIES:
+  - EVCloudKitDao (~> 3.3.2)
   - SwiftMoment (~> 0.7)
 
 SPEC CHECKSUMS:
+  EVCloudKitDao: eaea128cf95accbf1c1304fe3d7446cc94a47095
+  EVReflection: 19aa5cd37051999ac2cab7a33d6619c97104f42a
   SwiftMoment: dc6dd27012e267819104cbb03f74ff9192dd0b42
 
-PODFILE CHECKSUM: 64f0788ee20570439abec8edc4ea7ab63df98b09
+PODFILE CHECKSUM: 78fbfaea44dca625f9da3788ef7a6c8b13451ee9
 
 COCOAPODS: 1.2.0
