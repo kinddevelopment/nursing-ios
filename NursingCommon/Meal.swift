@@ -35,7 +35,7 @@ public class Meal {
         self.start = start
     }
     
-    public init(daoMeal: CKMeal) {
+    init(daoMeal: CKMeal) {
         self.duration = daoMeal.duration
         
         if let uwType = MealType.init(rawValue: daoMeal.type) {
