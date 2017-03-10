@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2815E4431E7270D800588D2F /* KDLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2815E4421E7270D800588D2F /* KDLog.swift */; };
 		284D05821E67E554007DF96D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05811E67E554007DF96D /* AppDelegate.swift */; };
 		284D05841E67E554007DF96D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05831E67E554007DF96D /* FirstViewController.swift */; };
 		284D05861E67E554007DF96D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D05851E67E554007DF96D /* SecondViewController.swift */; };
@@ -86,6 +87,7 @@
 		0182F2B4507DD5EEB50E2376 /* Pods-NursingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NursingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NursingTests/Pods-NursingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		035C41270E3D387251629120 /* Pods-NursingCommonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NursingCommonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NursingCommonTests/Pods-NursingCommonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		179704984B3883EFE7F1D195 /* Pods-NursingCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NursingCommon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NursingCommon/Pods-NursingCommon.debug.xcconfig"; sourceTree = "<group>"; };
+		2815E4421E7270D800588D2F /* KDLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KDLog.swift; path = Logging/KDLog.swift; sourceTree = "<group>"; };
 		284D057E1E67E554007DF96D /* Nursing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nursing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		284D05811E67E554007DF96D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		284D05831E67E554007DF96D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 				289946021E71DE7700B817D2 /* DataModel */,
 				285B290B1E67E78E00FD9087 /* NursingCommon.h */,
 				285B290C1E67E78E00FD9087 /* Info.plist */,
+				2815E4421E7270D800588D2F /* KDLog.swift */,
 			);
 			path = NursingCommon;
 			sourceTree = "<group>";
@@ -793,6 +796,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				289946071E71DF2700B817D2 /* CKMeal.swift in Sources */,
+				2815E4431E7270D800588D2F /* KDLog.swift in Sources */,
 				289946041E71DEC900B817D2 /* Meal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
