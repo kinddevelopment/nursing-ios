@@ -21,6 +21,7 @@
 		285B291B1E67E78E00FD9087 /* NursingCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 285B290B1E67E78E00FD9087 /* NursingCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		285B291E1E67E78E00FD9087 /* NursingCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 285B29091E67E78E00FD9087 /* NursingCommon.framework */; };
 		285B291F1E67E78E00FD9087 /* NursingCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 285B29091E67E78E00FD9087 /* NursingCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		28720B5A1E733C49006455C4 /* NCData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28720B591E733C49006455C4 /* NCData.swift */; };
 		289946041E71DEC900B817D2 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289946031E71DEC900B817D2 /* Meal.swift */; };
 		289946071E71DF2700B817D2 /* CKMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289946061E71DF2700B817D2 /* CKMeal.swift */; };
 		2899460B1E71E70E00B817D2 /* MealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899460A1E71E70E00B817D2 /* MealTests.swift */; };
@@ -108,6 +109,7 @@
 		285B29111E67E78E00FD9087 /* NursingCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NursingCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		285B29181E67E78E00FD9087 /* NursingCommonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NursingCommonTests.swift; sourceTree = "<group>"; };
 		285B291A1E67E78E00FD9087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28720B591E733C49006455C4 /* NCData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NCData.swift; path = DataModel/NCData.swift; sourceTree = "<group>"; };
 		289946031E71DEC900B817D2 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		289946061E71DF2700B817D2 /* CKMeal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CKMeal.swift; sourceTree = "<group>"; };
 		2899460A1E71E70E00B817D2 /* MealTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTests.swift; sourceTree = "<group>"; };
@@ -235,7 +237,6 @@
 				289946021E71DE7700B817D2 /* DataModel */,
 				285B290B1E67E78E00FD9087 /* NursingCommon.h */,
 				285B290C1E67E78E00FD9087 /* Info.plist */,
-				2815E4421E7270D800588D2F /* KDLog.swift */,
 			);
 			path = NursingCommon;
 			sourceTree = "<group>";
@@ -250,11 +251,21 @@
 			path = NursingCommonTests;
 			sourceTree = "<group>";
 		};
+		28720B5B1E733C50006455C4 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				2815E4421E7270D800588D2F /* KDLog.swift */,
+			);
+			name = Logging;
+			sourceTree = "<group>";
+		};
 		289946021E71DE7700B817D2 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
 				289946051E71DF1200B817D2 /* CloudKitObject */,
+				28720B5B1E733C50006455C4 /* Logging */,
 				289946031E71DEC900B817D2 /* Meal.swift */,
+				28720B591E733C49006455C4 /* NCData.swift */,
 			);
 			name = DataModel;
 			sourceTree = "<group>";
@@ -796,6 +807,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				289946071E71DF2700B817D2 /* CKMeal.swift in Sources */,
+				28720B5A1E733C49006455C4 /* NCData.swift in Sources */,
 				2815E4431E7270D800588D2F /* KDLog.swift in Sources */,
 				289946041E71DEC900B817D2 /* Meal.swift in Sources */,
 			);
